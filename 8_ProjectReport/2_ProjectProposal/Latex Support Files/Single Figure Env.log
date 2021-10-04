@@ -1,0 +1,617 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.14)  1 AUG 2016 16:09
+entering extended mode
+**Single*Figure*Env.tex
+
+("D:\Ninad Gaikwad\Documents\Ninad Gaikwad\Ninad Gaikwad Documents-PDF\SPCE\Sem
+ester Three & Four\SPCE\Stage One Evaluation\Latex Files\Single Figure Env.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\ninad gaikawad\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.
+sty"
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+("C:\Users\ninad gaikawad\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3
+.sty"
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+("C:\Users\ninad gaikawad\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcapti
+on.sty"
+Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
+\c@subfigure=\count89
+\c@subtable=\count90
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+("D:\Ninad Gaikwad\Documents\Ninad Gaikwad\Ninad Gaikwad Documents-PDF\SPCE\Sem
+ester Three & Four\SPCE\Stage One Evaluation\Latex Files\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("D:\Ninad Gaikwad\Documents\Ninad Gaikwad\Ninad Gaikwad Documents-PDF\SPCE\Sem
+ester Three & Four\SPCE\Stage One Evaluation\Latex Files\Single Figure Env.aux"
+
+LaTeX Warning: Label `figc1h1' multiply defined.
+
+
+LaTeX Warning: Label `figc1h1' multiply defined.
+
+
+LaTeX Warning: Label `figc3h17' multiply defined.
+
+
+LaTeX Warning: Label `figc3h18' multiply defined.
+
+
+LaTeX Warning: Label `figApp1_6' multiply defined.
+
+
+LaTeX Warning: Label `figc5h1' multiply defined.
+
+
+LaTeX Warning: Label `figc5h1' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+
+("C:\Users\ninad gaikawad\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.
+mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen112
+\scratchbox=\box28
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen113
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks18
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ <Images/ProposalDesign.png, id=1, 850.67813pt x 423.08063pt>
+File: Images/ProposalDesign.png Graphic file (type png)
+
+<use Images/ProposalDesign.png>
+Package pdftex.def Info: Images/ProposalDesign.png used on input line 17.
+(pdftex.def)             Requested size: 425.33803pt x 211.5398pt.
+
+Overfull \hbox (35.33803pt too wide) in paragraph at lines 17--18
+ [][] 
+ []
+
+<Images/Intro1.png, id=3, 469.00218pt x 165.61874pt>
+File: Images/Intro1.png Graphic file (type png)
+ <use Images/Intro1.png>
+Package pdftex.def Info: Images/Intro1.png used on input line 24.
+(pdftex.def)             Requested size: 469.00104pt x 165.61833pt.
+
+Overfull \hbox (79.00104pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+<Images/Intro2.png, id=4, 350.05782pt x 310.15875pt>
+File: Images/Intro2.png Graphic file (type png)
+ <use Images/Intro2.png>
+Package pdftex.def Info: Images/Intro2.png used on input line 31.
+(pdftex.def)             Requested size: 350.05695pt x 310.15799pt.
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+[1
+
+{C:/Users/ninad gaikawad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:
+/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semeste
+r Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/ProposalDesign.png>
+ <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Sem
+ester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Intro1.png>]
+<Images/Intro3.png, id=11, 364.36125pt x 331.99031pt>
+File: Images/Intro3.png Graphic file (type png)
+ <use Images/Intro3.png>
+Package pdftex.def Info: Images/Intro3.png used on input line 38.
+(pdftex.def)             Requested size: 364.36035pt x 331.98949pt.
+
+[2 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/S
+emester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Intro2.png>]
+<Images/Poly_Irradiance.png, id=15, 576.65437pt x 210.03468pt>
+File: Images/Poly_Irradiance.png Graphic file (type png)
+
+<use Images/Poly_Irradiance.png>
+Package pdftex.def Info: Images/Poly_Irradiance.png used on input line 46.
+(pdftex.def)             Requested size: 288.32648pt x 105.01707pt.
+
+<Images/Poly_Temperature.png, id=16, 577.40718pt x 210.7875pt>
+File: Images/Poly_Temperature.png Graphic file (type png)
+
+<use Images/Poly_Temperature.png>
+Package pdftex.def Info: Images/Poly_Temperature.png used on input line 53.
+(pdftex.def)             Requested size: 288.70288pt x 105.3935pt.
+ [3 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Intro3.png> 
+<D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Seme
+ster Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Poly_Irradiance.
+png>]
+<Images/Mono_Irradiance.png, id=20, 579.66562pt x 213.04594pt>
+File: Images/Mono_Irradiance.png Graphic file (type png)
+
+<use Images/Mono_Irradiance.png>
+Package pdftex.def Info: Images/Mono_Irradiance.png used on input line 60.
+(pdftex.def)             Requested size: 289.83209pt x 106.5227pt.
+
+<Images/Mono_Temperature.png, id=21, 579.66562pt x 211.54031pt>
+File: Images/Mono_Temperature.png Graphic file (type png)
+
+<use Images/Mono_Temperature.png>
+Package pdftex.def Info: Images/Mono_Temperature.png used on input line 67.
+(pdftex.def)             Requested size: 289.83209pt x 105.76988pt.
+
+<Images/A-si_Irradiance.png, id=22, 578.91281pt x 210.03468pt>
+File: Images/A-si_Irradiance.png Graphic file (type png)
+
+<use Images/A-si_Irradiance.png>
+Package pdftex.def Info: Images/A-si_Irradiance.png used on input line 74.
+(pdftex.def)             Requested size: 289.45569pt x 105.01707pt.
+ [4 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Poly_Tempera
+ture.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF
+/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Mono_I
+rradiance.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Document
+s-PDF/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/M
+ono_Temperature.png>]
+<Images/A-si_Temperature.png, id=26, 580.41844pt x 210.03468pt>
+File: Images/A-si_Temperature.png Graphic file (type png)
+
+<use Images/A-si_Temperature.png>
+Package pdftex.def Info: Images/A-si_Temperature.png used on input line 81.
+(pdftex.def)             Requested size: 290.20851pt x 105.01707pt.
+
+<Images/CDTE_Irradiance.png, id=27, 576.65437pt x 210.7875pt>
+File: Images/CDTE_Irradiance.png Graphic file (type png)
+
+<use Images/CDTE_Irradiance.png>
+Package pdftex.def Info: Images/CDTE_Irradiance.png used on input line 88.
+(pdftex.def)             Requested size: 288.32648pt x 105.3935pt.
+
+<Images/CDTE_Temperature.png, id=28, 576.65437pt x 210.7875pt>
+File: Images/CDTE_Temperature.png Graphic file (type png)
+
+<use Images/CDTE_Temperature.png>
+Package pdftex.def Info: Images/CDTE_Temperature.png used on input line 95.
+(pdftex.def)             Requested size: 288.32648pt x 105.3935pt.
+ [5 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/A-si_Irradia
+nce.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/
+SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/A-si_Te
+mperature.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Document
+s-PDF/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/C
+DTE_Irradiance.png>]
+<Images/Poly_Shading_WithoutByPassDiode.png, id=32, 581.92406pt x 214.55156pt>
+File: Images/Poly_Shading_WithoutByPassDiode.png Graphic file (type png)
+
+<use Images/Poly_Shading_WithoutByPassDiode.png>
+Package pdftex.def Info: Images/Poly_Shading_WithoutByPassDiode.png used on inp
+ut line 102.
+(pdftex.def)             Requested size: 290.96132pt x 107.27551pt.
+
+<Images/Poly_Shading_With_ByPassDiode.png, id=33, 580.41844pt x 423.83344pt>
+File: Images/Poly_Shading_With_ByPassDiode.png Graphic file (type png)
+
+<use Images/Poly_Shading_With_ByPassDiode.png>
+Package pdftex.def Info: Images/Poly_Shading_With_ByPassDiode.png used on input
+ line 109.
+(pdftex.def)             Requested size: 290.20851pt x 211.91618pt.
+ [6 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/CDTE_Tempera
+ture.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF
+/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Poly_S
+hading_WithoutByPassDiode.png>]
+<Images/pv1.jpg, id=38, 379.4175pt x 204.765pt>
+File: Images/pv1.jpg Graphic file (type jpg)
+ <use Images/pv1.jpg>
+Package pdftex.def Info: Images/pv1.jpg used on input line 117.
+(pdftex.def)             Requested size: 189.70828pt x 102.38223pt.
+
+<Images/pv2.jpg, id=39, 356.83313pt x 201.00093pt>
+File: Images/pv2.jpg Graphic file (type jpg)
+ <use Images/pv2.jpg>
+Package pdftex.def Info: Images/pv2.jpg used on input line 124.
+(pdftex.def)             Requested size: 178.41612pt x 100.50021pt.
+
+<Images/pv3.jpg, id=40, 275.52937pt x 147.55125pt>
+File: Images/pv3.jpg Graphic file (type jpg)
+ <use Images/pv3.jpg>
+Package pdftex.def Info: Images/pv3.jpg used on input line 131.
+(pdftex.def)             Requested size: 137.76434pt x 73.77544pt.
+
+[7 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/S
+emester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Poly_Shading_
+With_ByPassDiode.png> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad D
+ocuments-PDF/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/I
+mages/pv1.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Document
+s-PDF/SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/p
+v2.jpg>] <Images/pv4.jpg, id=45, 222.07968pt x 137.7647pt>
+File: Images/pv4.jpg Graphic file (type jpg)
+
+<use Images/pv4.jpg>
+Package pdftex.def Info: Images/pv4.jpg used on input line 138.
+(pdftex.def)             Requested size: 111.03957pt x 68.88217pt.
+ <Images/pv5.jpg, id=46, 392.96812pt x 167.12437pt>
+File: Images/pv5.jpg Graphic file (type jpg)
+
+<use Images/pv5.jpg>
+Package pdftex.def Info: Images/pv5.jpg used on input line 145.
+(pdftex.def)             Requested size: 196.48357pt x 83.56197pt.
+ <Images/pv6.jpg, id=47, 394.47375pt x 202.50656pt>
+File: Images/pv6.jpg Graphic file (type jpg)
+
+<use Images/pv6.jpg>
+Package pdftex.def Info: Images/pv6.jpg used on input line 152.
+(pdftex.def)             Requested size: 197.23639pt x 101.25302pt.
+ <Images/pv7.jpg, id=48, 331.2375pt x 125.71968pt>
+File: Images/pv7.jpg Graphic file (type jpg)
+
+<use Images/pv7.jpg>
+Package pdftex.def Info: Images/pv7.jpg used on input line 159.
+(pdftex.def)             Requested size: 165.61833pt x 62.85968pt.
+ [8 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/pv3.jpg> <D:
+/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semeste
+r Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/pv4.jpg> <D:/Ninad 
+Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semester Three
+ & Four/SPCE/Stage One Evaluation/Latex Files/Images/pv5.jpg> <D:/Ninad Gaikwad
+/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semester Three & Four
+/SPCE/Stage One Evaluation/Latex Files/Images/pv6.jpg>]
+<Images/shading1.jpg, id=52, 321.45094pt x 223.58531pt>
+File: Images/shading1.jpg Graphic file (type jpg)
+
+<use Images/shading1.jpg>
+Package pdftex.def Info: Images/shading1.jpg used on input line 166.
+(pdftex.def)             Requested size: 160.72507pt x 111.79237pt.
+
+<Images/shading2.jpg, id=53, 377.91188pt x 186.6975pt>
+File: Images/shading2.jpg Graphic file (type jpg)
+
+<use Images/shading2.jpg>
+Package pdftex.def Info: Images/shading2.jpg used on input line 173.
+(pdftex.def)             Requested size: 188.95547pt x 93.34851pt.
+
+<Images/bydiode1.jpg, id=54, 380.92313pt x 140.02313pt>
+File: Images/bydiode1.jpg Graphic file (type jpg)
+
+<use Images/bydiode1.jpg>
+Package pdftex.def Info: Images/bydiode1.jpg used on input line 180.
+(pdftex.def)             Requested size: 190.46109pt x 70.01138pt.
+
+<Images/bydiode2.jpg, id=55, 411.78844pt x 241.65282pt>
+File: Images/bydiode2.jpg Graphic file (type jpg)
+
+<use Images/bydiode2.jpg>
+Package pdftex.def Info: Images/bydiode2.jpg used on input line 187.
+(pdftex.def)             Requested size: 205.8937pt x 120.82611pt.
+ [9 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/pv7.jpg> <D:
+/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semeste
+r Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/shading1.jpg> <D:/N
+inad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semester 
+Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/shading2.jpg> <D:/Nin
+ad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semester Th
+ree & Four/SPCE/Stage One Evaluation/Latex Files/Images/bydiode1.jpg>] <Images/
+bldiode1.jpg, id=60, 392.96812pt x 194.22563pt>
+File: Images/bldiode1.jpg Graphic file (type jpg)
+
+<use Images/bldiode1.jpg>
+Package pdftex.def Info: Images/bldiode1.jpg used on input line 194.
+(pdftex.def)             Requested size: 196.48357pt x 97.11256pt.
+ <Images/trac1.jpg, id=61, 349.305pt x 137.01187pt>
+File: Images/trac1.jpg Graphic file (type jpg)
+
+<use Images/trac1.jpg>
+Package pdftex.def Info: Images/trac1.jpg used on input line 201.
+(pdftex.def)             Requested size: 174.65207pt x 68.50577pt.
+ <Images/trac2.jpg, id=62, 323.70938pt x 192.72pt>
+File: Images/trac2.jpg Graphic file (type jpg)
+
+<use Images/trac2.jpg>
+Package pdftex.def Info: Images/trac2.jpg used on input line 208.
+(pdftex.def)             Requested size: 161.8543pt x 96.35976pt.
+ [10 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE
+/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/bydiode2.jp
+g> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/S
+emester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/bldiode1.jpg>
+ <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Sem
+ester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/trac1.jpg>] <Im
+ages/SolarAppGui1.jpg, id=66, 585.68813pt x 456.95718pt>
+File: Images/SolarAppGui1.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui1.jpg>
+Package pdftex.def Info: Images/SolarAppGui1.jpg used on input line 215.
+(pdftex.def)             Requested size: 292.84334pt x 228.47803pt.
+
+<Images/SolarAppGui2.jpg, id=67, 974.13937pt x 522.45187pt>
+File: Images/SolarAppGui2.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui2.jpg>
+Package pdftex.def Info: Images/SolarAppGui2.jpg used on input line 222.
+(pdftex.def)             Requested size: 487.0685pt x 261.2253pt.
+
+Overfull \hbox (97.0685pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+[11 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/trac2.jpg> <
+D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semes
+ter Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGui1.jpg>
+] <Images/SolarAppGui3.jpg, id=71, 463.7325pt x 472.01344pt>
+File: Images/SolarAppGui3.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui3.jpg>
+Package pdftex.def Info: Images/SolarAppGui3.jpg used on input line 229.
+(pdftex.def)             Requested size: 231.86568pt x 236.00613pt.
+ [12 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE
+/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGui
+2.jpg>]
+<Images/SolarAppGui8.jpg, id=75, 691.83469pt x 411.78844pt>
+File: Images/SolarAppGui8.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui8.jpg>
+Package pdftex.def Info: Images/SolarAppGui8.jpg used on input line 236.
+(pdftex.def)             Requested size: 345.91649pt x 205.8937pt.
+
+<Images/SolarAppGui5.jpg, id=76, 973.38657pt x 481.04718pt>
+File: Images/SolarAppGui5.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui5.jpg>
+Package pdftex.def Info: Images/SolarAppGui5.jpg used on input line 243.
+(pdftex.def)             Requested size: 486.6921pt x 240.523pt.
+
+Overfull \hbox (96.6921pt too wide) in paragraph at lines 243--244
+ [][] 
+ []
+
+[13 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGui3
+.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPC
+E/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGu
+i8.jpg>] <Images/SolarAppGui4.jpg, id=81, 754.31813pt x 462.22687pt>
+File: Images/SolarAppGui4.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui4.jpg>
+Package pdftex.def Info: Images/SolarAppGui4.jpg used on input line 250.
+(pdftex.def)             Requested size: 377.15814pt x 231.11287pt.
+
+<Images/SolarAppGui7.jpg, id=82, 866.48718pt x 506.6428pt>
+File: Images/SolarAppGui7.jpg Graphic file (type jpg)
+
+<use Images/SolarAppGui7.jpg>
+Package pdftex.def Info: Images/SolarAppGui7.jpg used on input line 257.
+(pdftex.def)             Requested size: 433.24252pt x 253.32079pt.
+
+Overfull \hbox (43.24252pt too wide) in paragraph at lines 257--258
+ [][] 
+ []
+
+[14 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGui5
+.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPC
+E/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGu
+i4.jpg>] <Images/ForecastIntro1.jpg, id=86, 524.71031pt x 268.75406pt>
+File: Images/ForecastIntro1.jpg Graphic file (type jpg)
+
+<use Images/ForecastIntro1.jpg>
+Package pdftex.def Info: Images/ForecastIntro1.jpg used on input line 264.
+(pdftex.def)             Requested size: 262.3545pt x 134.3767pt.
+
+<Images/ForecastIntro2.jpg, id=87, 626.34pt x 317.68687pt>
+File: Images/ForecastIntro2.jpg Graphic file (type jpg)
+
+<use Images/ForecastIntro2.jpg>
+Package pdftex.def Info: Images/ForecastIntro2.jpg used on input line 271.
+(pdftex.def)             Requested size: 313.16922pt x 158.84303pt.
+ [15 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE
+/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarAppGui
+7.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SP
+CE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/ForecastI
+ntro1.jpg>]
+<Images/SolarAppAlgorithm.jpg, id=91, 910.15031pt x 493.0922pt>
+File: Images/SolarAppAlgorithm.jpg Graphic file (type jpg)
+
+<use Images/SolarAppAlgorithm.jpg>
+Package pdftex.def Info: Images/SolarAppAlgorithm.jpg used on input line 278.
+(pdftex.def)             Requested size: 455.07405pt x 246.54549pt.
+
+Overfull \hbox (65.07405pt too wide) in paragraph at lines 278--279
+ [][] 
+ []
+
+<Images/ANN11.jpg, id=92, 209.28188pt x 137.01187pt>
+File: Images/ANN11.jpg Graphic file (type jpg)
+ <use Images/ANN11.jpg>
+Package pdftex.def Info: Images/ANN11.jpg used on input line 285.
+(pdftex.def)             Requested size: 104.64067pt x 68.50577pt.
+
+[16 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/ForecastIntr
+o2.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/S
+PCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/SolarApp
+Algorithm.jpg>] <Images/ANN22.jpg, id=96, 446.41782pt x 206.27063pt>
+File: Images/ANN22.jpg Graphic file (type jpg)
+
+<use Images/ANN22.jpg>
+Package pdftex.def Info: Images/ANN22.jpg used on input line 292.
+(pdftex.def)             Requested size: 223.20836pt x 103.13506pt.
+ <Images/WRF_11.jpg, id=97, 1029.8475pt x 861.9703pt>
+File: Images/WRF_11.jpg Graphic file (type jpg)
+
+<use Images/WRF_11.jpg>
+Package pdftex.def Info: Images/WRF_11.jpg used on input line 299.
+(pdftex.def)             Requested size: 514.9225pt x 430.9841pt.
+
+Overfull \hbox (124.9225pt too wide) in paragraph at lines 299--300
+ [][] 
+ []
+
+[17 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/ANN11.jpg> <
+D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semes
+ter Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/ANN22.jpg>]
+<Images/RPiCluster_IMG1.jpg, id=101, 516.42938pt x 271.0125pt>
+File: Images/RPiCluster_IMG1.jpg Graphic file (type jpg)
+
+<use Images/RPiCluster_IMG1.jpg>
+Package pdftex.def Info: Images/RPiCluster_IMG1.jpg used on input line 306.
+(pdftex.def)             Requested size: 258.21405pt x 135.5059pt.
+ [18 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE
+/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/WRF_11.jpg>
+]
+<Images/Wind11.jpg, id=105, 275.52937pt x 298.11375pt>
+File: Images/Wind11.jpg Graphic file (type jpg)
+ <use Images/Wind11.jpg>
+Package pdftex.def Info: Images/Wind11.jpg used on input line 313.
+(pdftex.def)             Requested size: 137.76434pt x 149.0565pt.
+
+<Images/Wind2.jpg, id=106, 435.12563pt x 231.11343pt>
+File: Images/Wind2.jpg Graphic file (type jpg)
+ <use Images/Wind2.jpg>
+Package pdftex.def Info: Images/Wind2.jpg used on input line 320.
+(pdftex.def)             Requested size: 217.56227pt x 115.55643pt.
+
+<Images/Wind3.jpg, id=107, 347.04657pt x 249.18094pt>
+File: Images/Wind3.jpg Graphic file (type jpg)
+ <use Images/Wind3.jpg>
+Package pdftex.def Info: Images/Wind3.jpg used on input line 327.
+(pdftex.def)             Requested size: 173.52286pt x 124.59015pt.
+
+[19 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/RPiCluster_I
+MG1.jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/
+SPCE/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Wind11.
+jpg> <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE
+/Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Wind2.jpg>]
+<Images/WindScheme.jpg, id=112, 903.375pt x 439.6425pt>
+File: Images/WindScheme.jpg Graphic file (type jpg)
+
+<use Images/WindScheme.jpg>
+Package pdftex.def Info: Images/WindScheme.jpg used on input line 334.
+(pdftex.def)             Requested size: 451.6864pt x 219.82071pt.
+
+Overfull \hbox (61.6864pt too wide) in paragraph at lines 334--335
+ [][] 
+ []
+
+[20 <D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/
+Semester Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/Wind3.jpg> <
+D:/Ninad Gaikwad/Documents/Ninad Gaikwad/Ninad Gaikwad Documents-PDF/SPCE/Semes
+ter Three & Four/SPCE/Stage One Evaluation/Latex Files/Images/WindScheme.jpg>]
+("D:\Ninad Gaikwad\Documents\Ninad Gaikwad\Ninad Gaikwad Documents-PDF\SPCE\Sem
+ester Three & Four\SPCE\Stage One Evaluation\Latex Files\Single Figure Env.aux"
+)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2548 strings out of 493921
+ 42395 string characters out of 3147255
+ 91561 words of memory out of 3000000
+ 5829 multiletter control sequences out of 15000+200000
+ 4285 words of font info for 16 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,6n,38p,281b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Single Figure Env.pdf" (20 pages, 2373080 bytes).
+PDF statistics:
+ 124 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,174 @@
+%%Preamble
+
+ \documentclass[12pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, width=180mm, top=25mm, bottom=25mm]{geometry}
+
+\usepackage{graphicx}
+\graphicspath{{Images/}} %% Path to find Image Files
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\numberwithin{equation}{section} % for giving numbered euations section wise otherwise use \numberwithin{equation}{subsection}
+
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} %% Remove all Headers
+\fancyhead[RO,LE]{Development of Solar \& Wind Energy Estimation and Forecasting Application}
+\fancyfoot{} %% Remove all Footers
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Ninad K. Gaikwad}
+\renewcommand{\headrulewidth}{0.4pt} %% Horizontal lines separating Header and Footers from main text
+\renewcommand{\footrulewidth}{0.4pt}
+
+\usepackage{caption} %% For using Sub-Figure and Sub-Table Environments
+\usepackage{subcaption}
+
+\usepackage{float}
+\usepackage[section]{placeins} % \FloatBarrier, it avoids floating of tables and
+
+\usepackage{natbib} %% References from Bib File
+
+\begin{document}
+
+\input{Titlepage}
+
+%% Un-numbered Chapters
+
+\chapter*{Abstract}
+\
+\
+\
+\
+The thesis focuses on the developing an application eco-system for performing intra-hour, intra-day and day-ahead generation forecasting for Solar Photovoltaic and Wind Turbine grid connected power plants. The generation forecasting has been divided into two parts: Weather Variable Forecasting (As they are the stochastic component of the problem) and the Energy Estimation of Solar and Wind power plants (as the energy estimation becomes deterministic once the input weather variables have been forecasted). Artificial Neural Networks (ANN), Auto-Regressive Integrated Moving Average Models (ARIMA) and Weather Research and Forecasting Software (WRF) are used for intra-hour, intra-day and day-ahead generation forecasting. For running the WRF software in a distributed-memory and parallel fashion, a 4-Node Raspberry-Pi2 cluster has been developed. The entire application eco-system is developed in MATLAB using its GUI feature, which makes generation forecasting very user friendly. Six applications with their sub-modules have been designed and developed for this purpose : Data Pre-Processing Application, Solar Energy Estimation Application, Wind Energy Estimation Application, ARIMA Forecasting Application, ANN Forecasting Application, and the WRF-NETCDF Visualization \& Extraction Application. The solar energy estimation application is tested with data from Backbone 5MW and GSEC 1MW solar photovoltaic power plants, whereas the wind energy estimation application is tested with a hypothetical wind power plant (due to lack of real wind power plant data). Moreover, the ARIMA application is tested to produce intra-day generation forecasts for GSEC 1MW plant in conjugation with the solar energy estimation application. Similarly, the ANN forecasting application is test to produce intra-hour generation forecasts for GSEC 1MW plant in conjugation with the solar energy estimation application. Finally, the WRF softaware running on the developed Raspberry-Pi2 cluster is used to produce day-ahead generation forecasts for GSEC 1MW plant in conjugation the wrf-netcdf visualization \& extraction application and solar energy estimation application. All the results are well documented and presented in the thesis. The application GUIs are illustrated in the appendices.
+
+
+\chapter*{Acknowledgements}
+\
+\
+\
+\
+Firstly, I would like to express my sincere gratitude to my advisor Assist \textbf{Prof. Nitin G. Bhitre} for the continuous support of my Master’s study and related research, for his patience, motivation, and immense knowledge. His guidance helped me in all the time of research and writing of this thesis. I could not have imagined having a better advisor and mentor for my Master’s study.\\
+
+Besides my advisor, I would like to thank the rest of Electrical Engineering Department: \textbf{Assist Prof. B. B. Pimple} , for their insightful comments and encouragement, but also for the hard question which helped me widen my research from various perspectives.\\
+
+I am also thankful to \textbf{Mr. Saurabh Gavali} (Intern – GERMI) for helping me creating the base version of the Wind Energy Estimation Application. Moreover, I am thankful to \textbf{Mr. Shantanu Vaishnav} (Intern - GERMI) for helping me in ANN forecasting module.
+
+My sincere thanks also goes to\textbf{ Dr. Sagarkumar Agravat} and \textbf{Dr. T. Harynarayana} of GERMI, who provided me an opportunity to join their Renewable Energy Research Wing as a research intern, and who gave access to the laboratory and research facilities. Without their precious support, guidance and continuous motivation it would not be possible to conduct this research.
+
+
+\chapter*{Dedication}
+\
+\
+\
+\
+I dedicate my dissertation work to my family and many friends. A special feeling of gratitude to my loving parents, \textbf{Dr. Kiran} and\textbf{ Dr. Madhuri Gaikwad }whose words of encouragement and push for tenacity ring in my ears. My brothers\textbf{ Varun} and \textbf{Dr. Vrushabh Gavali}; my friends \textbf{Jubin} and \textbf{Yogesh}, who have never left my side and are very special. I also dedicate this dissertation to my dear friend \textbf{Sarita Panke} who has supported me throughout the process. I will always appreciate all they have done. All of you have been like glittering stars in the long-night’s sky assuring of the bright sunrise, and I am pleased to say the dawn is nearer by an hour.
+
+\chapter*{Epigraph}
+
+\begin{flushright}
+\begin{Large}PLATO\end{Large}\\
+\vspace{5mm}
+\textit{“The beginning is the most important part of the work.”}\\
+
+\vspace{2cm}
+
+\begin{Large}Sir Isaac Newton\end{Large}\\
+\vspace{5mm}
+\textit{“What certainty can there be in a Philosophy which consists in as many Hypotheses as there are Phenomena to be explained. To explain all nature is too difficult a task for any one man or even for any one age. 'Tis much better to do a little with certainty, and leave the rest for others that come after you, than to explain all things by conjecture without making sure of anything.”}\\
+
+\vspace{2cm}
+
+\begin{Large}Albert Einstein\end{Large}\\
+\vspace{5mm}
+\textit{" ... as far as the propositions of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality."}\\
+
+\vspace{2cm}
+
+\begin{Large}Richard Feynman\end{Large}\\
+\vspace{5mm}
+\textit{“I have approximate answers and possible beliefs in different degrees of certainty about different things, but I'm not absolutely sure of anything.”}
+\end{flushright}
+
+
+%% Table of Contents
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+%% Beginning of Main Chapters, these are linked to the Main file using input command
+
+\chapter{Introduction}
+\input{Chapters/Introduction}
+
+\chapter{Data of Gujarat Solar PV Plants}
+\input{Chapters/Ch2}
+
+\chapter{Basics of Solar Energy}
+\input{Chapters/Ch3}
+
+\chapter{Solar Photovoltaic Energy Estimation}
+\input{Chapters/Ch4}
+
+\chapter{Wind Turbine Energy Estimation}
+\input{Chapters/Ch5}
+
+\chapter{Forecasting Techniques in Brief}
+\input{Chapters/Ch6}
+
+\chapter{Generation Forecasting using ARIMA}
+\input{Chapters/Ch7}
+
+\chapter{Generation Forecasting using ANN}
+\input{Chapters/Ch8}
+
+\chapter{Generation Forecasting using WRF}
+\input{Chapters/Ch9}
+
+\chapter{Conclusion and Future Work}
+\input{Chapters/Ch10}
+
+\chapter{References}
+\input{Chapters/Ch11}
+
+%% References
+
+%\bibliographystyle{plain}
+%\bibliography{References}
+%\nocite{*}
+
+%% Appendix
+
+\appendix
+\chapter{Application Start GUIs }
+\input{Chapters/Appendix8}
+
+\chapter{Solar Energy Estimation App GUIs}
+\input{Chapters/Appendix1}
+
+\chapter{Wind Energy Estimation App GUIs }
+\input{Chapters/Appendix2}
+
+\chapter{ARIMA Forecasting App GUIs }
+\input{Chapters/Appendix3}
+
+\chapter{ANN Forecasting App GUIs }
+\input{Chapters/Appendix4}
+
+\chapter{WRF NETCDF Visualization and Extraction App GUI }
+\input{Chapters/Appendix5}
+
+\chapter{Data Pre-Processing System App GUIs }
+\input{Chapters/Appendix7}
+
+
+\end{document}
+\end{document}
+\end{document}
+\end{document}

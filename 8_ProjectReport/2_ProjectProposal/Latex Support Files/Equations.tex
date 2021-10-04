@@ -1,0 +1,416 @@
+%% Equations for Thesis Chapter-Wise
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+
+\begin{document}
+
+
+
+\textbf{\huge{Thesis Equations:}}\\
+
+\textbf{\textit{\large{Chapter 3 Equations:}}}\\
+%% Chapter 3 Equations Start
+
+
+
+
+
+
+
+\begin{eqnarray*}
+
+
+
+r_{p}=R_{p}\alpha_{p}
+
+\\
+
+\text{Where;}
+
+\\
+
+
+$r_{p}=[r(1)  r(2) ... r(p)]$
+\\
+
+R_{p} &=\begin{bmatrix}
+    r(0) & r(1)  & \dots  & r(p-1) \\
+    r(1) & r(0)  & \dots  & r(p-2) \\
+    \vdots & \vdots & \ddots & \vdots \\
+    r(p-1) & r(p-2) } & \dots  & r(0)
+\end{bmatrix}
+
+
+\\
+$\alpha_{p}=[\alpha(1)  \alpha(2) ... \alpha(p)]$
+\\
+$r(1)=\frac{\widehat{\gamma}(1)}{\widehat{\gamma}(0)}$ & \text{; Auto-Correlation at Lag 1}
+\\
+\widehat{\gamma}(h)=\frac{1}{n}\sum_{t=1}^{n-h}\left(  X_{t}-\bar{X}  \right)\left( X_{t+h}- \bar{X}  \right) & \text{; Auto-Covariance at Lag h}
+
+\\
+
+\text{The AR parameters are obtained from the following equation;}
+
+\\
+
+\alpha_{p}}=R_{p}^{-1}r_{p}
+
+
+\end{eqnarray*}
+
+
+
+\begin{equation}
+\label{planck}
+E_{\lambda}=\frac{3.74\times10^{8}}{\lambda^{5} \left[\text{exp}\left( \frac{14,400}{\lambda T}\right)-1 \right]}
+\end{equation}
+
+\begin{equation}
+\label{stefbolt}
+E = A \sigma T^{4}
+\end{equation}
+
+\begin{equation}
+\label{wien}
+\lambda_{{max}}(\mu m)=\frac{2898}{T(K)}
+\end{equation}
+
+\begin{equation}
+\label{diode}
+I_{d} = I_{0}( e^{qV_{d}/kT}-1)
+\end{equation}
+
+\begin{equation}
+\label{pv1}
+I = I_{SC}-I_{d}
+\end{equation}
+
+\begin{equation}
+\label{pv2}
+I = I_{SC}-I_{0} \left(e^{qV/kT}-1 \right )
+\end{equation}
+
+\begin{equation}
+\label{pv3}
+V_{OC} = \frac{kT}{q}\ln \left (\frac{I_{SC}}{I_{0}}+1\right )
+\end{equation}
+
+
+\begin{equation}
+\label{pv4}
+I = I_{SC}-I_{0} \left(e^{38.9V}-1 \right )
+\end{equation}
+
+\begin{equation}
+\label{pv5}
+V_{OC} = 0.0257\ln \left (\frac{I_{SC}}{I_{0}}+1\right )
+\end{equation}
+
+
+\begin{equation}
+\label{pv6}
+I = (I_{SC}-I_{d})-\frac{V}{R_{P}}
+\end{equation}
+
+\begin{equation}
+\label{pv7}
+V_{d}=V+I.R_{S}
+\end{equation}
+
+\begin{equation}
+\label{pv8}
+I = I_{SC}-I_{0} \left\{\text{exp}\left[\frac{q(V+I.R_{S})}{kT} \right]-1 \right\}
+\end{equation}
+
+\begin{equation}
+\label{pv9}
+I = I_{SC}-I_{0} \left\{\text{exp}\left[\frac{q(V+I.R_{S})}{kT} \right]-1 \right\}-\left(\frac{V+I.R_{S}}{R_{P}}\right)
+\end{equation}
+
+\begin{equation}
+\label{pv10}
+I_{SC}=I+I_{d}+I_{P}
+\end{equation}
+
+\begin{equation}
+\label{pv11}
+V=V_{d}-IR_{S}
+\end{equation}
+
+\begin{equation}
+\label{mod1}
+V_{{module}}=n(V_{d}-IR_{S})
+\end{equation}
+
+\begin{equation}
+\label{mod2}
+I_{{module}}=p(I_{SC}-I_{d}-I_{P})
+\end{equation}
+
+\begin{equation}
+\label{tefpv}
+T_{{cell}}=T_{{amb}}+\left(\frac{NOCT-20^{\circ}}{0.8}\right)
+.\ S
+\end{equation}
+
+\begin{equation}
+\label{shade1}
+V_{SH}=V_{n-1}-I(R_{P}+R_{S})
+\end{equation}
+
+\begin{equation}
+\label{shade2}
+V_{n-1}=\left(\frac{n-1}{n}\right)V
+\end{equation}
+
+\begin{equation}
+\label{shade3}
+V_{SH}=\left(\frac{n-1}{n}\right)V-I(R_{P}+R_{S})
+\end{equation}
+
+\begin{equation}
+\label{shade4}
+\triangledown V=\frac{V}{n}-I(R_{P}+R_{S})
+\end{equation}
+
+\\
+%% Chapter 3 Equations End
+
+
+\textbf{\textit{\large{Chapter 4 Equations:}}}\\
+%% Chapter 4 Equations Start
+
+\begin{equation}
+\label{amr}
+\text{Air Mass Ratio}\quad m=\frac{h_{2}}{h_{1}}=\frac{1}{\sin{\beta}}
+\end{equation}
+
+\begin{equation}
+\label{eo}
+d=1.5\times10^{8}\left \{\ 1+0.017 \sin \left[ \frac{360(n-93)}{365} \right] \right\} \ \text{km}
+\end{equation}
+
+\begin{equation}
+\label{sdec}
+\delta =23.45 \sin \left[ \frac{360}{365} (n-81)\right]  
+\end{equation}
+
+\begin{equation}
+\label{altn}
+\beta_{N}=90^{\circ}-L+\delta
+\end{equation}
+
+\begin{equation}
+\label{tilt1}
+\text{Tilt}=90^{\circ}-\beta_{N}
+\end{equation}
+
+\begin{equation}
+\label{alt}
+\sin{(\beta)}=\cos{(L)}\cos{(\delta)}cos{(H)}+\sin{(L)}\sin{(\delta)}
+\end{equation}
+
+\begin{equation}
+\label{azm}
+\sin{(\phi_{S})}=\frac{\cos{(\delta)}\sin{(H)}}{\cos{(\beta)}}
+\end{equation}
+
+\begin{equation}
+\label{ha}
+\text{Hour Angle}\ H=\left(\frac{15^{\circ}}{\text{hour}}\right).(\text{hours before solar noon})
+\end{equation}
+
+\begin{equation}
+\label{hac}
+\text{if,} \quad \cos{(H)}\geq\frac{\tan{(\delta)}}{\tan{(L)}}; \hspace{1cm} \text{then,} \ |\phi_{S}|\leq90^{\circ}; \hspace{1cm} \text{otherwise,} \ |\phi_{S}|>90^{\circ}
+\end{equation}
+
+\begin{equation}
+\label{eot}
+E= 9.87\sin{(2B)} -7.53\cos{(B)} -1.5\sin{(B)} \quad \text{minutes}
+\end{equation}
+
+\begin{equation}
+\label{eotb}
+B=\frac{360}{364}(n-81)
+\end{equation}
+
+\begin{equation}
+\label{solartime}
+\text{Solar Time (ST)}= \text{Clock Time (CT)}+ \frac{4 \ \text{min}}{\text{degree}}(\text{Local Time Meridian}- \text{Local Logitude})^{\circ} + E(\text{min})
+\end{equation}
+
+\begin{equation}
+\label{sunrise1}
+\sin{(\beta)}=\cos{(L)}\cos{(\delta)}cos{(H)}+\sin{(L)}\sin{(\delta)}=0
+\end{equation}
+
+\begin{equation}
+\label{sunrise2}
+\cos{(H)}=-\frac{\sin{(L)}\sin{(\delta)}}{\cos{(L)}\cos{(\delta)}}=-\tan{(L)}\tan{(\delta)}
+\end{equation}
+
+\begin{equation}
+\label{sunrise3}
+H_{SR}=\cos^{-1}{(-\tan{(L)}\tan{(\delta)})} \quad \text{(+ for sunrise)}
+\end{equation}
+
+\begin{equation}
+\label{sunrise4}
+\text{Sunrise(geometric)}= 12:00-\frac{H_{SR}}{15^{\circ}/h}
+\end{equation}
+
+\begin{equation}
+\label{sunrise5}
+Q=\frac{3.467}{\cos{(L)}\cos{(\delta)}\sin{(H_{SR})}} \quad (\text{min})
+\end{equation}
+
+\begin{equation}
+\label{etr1}
+I_{0}=\text{SC}. \left[1+0.0334\cos\left(\frac{360n}{365}\right)\right] \quad (\text{W/m}^{2})
+\end{equation}
+
+\begin{equation}
+\label{beam1}
+I_{B}=Ae^{-km}
+\end{equation}
+
+\begin{equation}
+\label{beam2}
+A=1160+75\sin\left[\frac{360}{365}(n-275)\right] \quad (\text{W/m}^{2})
+\end{equation}
+
+\begin{equation}
+\label{beam3}
+k=0.174+0.035\sin\left[\frac{360}{365}(n-100)\right]
+\end{equation}
+
+\begin{equation}
+\label{beamc1}
+I_{BC}=I_{B}\cos{(\theta)}
+\end{equation}
+
+\begin{equation}
+\label{beamc2}
+I_{BH}=I_{B}\cos{(90^{\circ}-\beta)}=I_{B}\sin{(\beta)}
+\end{equation}
+
+\begin{equation}
+\label{beamc3}
+\cos{(\theta)}=\cos{(\beta)}\cos{(\phi_{S}-\phi_{C})}\sin{(\Sigma)}+\sin{(\beta)}\cos{(\Sigma)}
+\end{equation}
+
+\begin{equation}
+\label{diff1}
+I_{DH}=CI_{B}
+\end{equation}
+
+\begin{equation}
+\label{diff2}
+C=0.095+0.04\sin\left[\frac{360}{365}(n-100)\right]
+\end{equation}
+
+
+\begin{equation}
+\label{diffc1}
+I_{DC}=I_{DH}\left(\frac{1+\cos{(\Sigma)}}{2}\right)=CI_{B}\left(\frac{1+\cos{(\Sigma)}}{2}\right)
+\end{equation}
+
+\begin{equation}
+\label{ref1}
+I_{RC}=\rho(I_{BH}+I_{DH})\left(\frac{1-\cos{(\Sigma)}}{2}\right)
+\end{equation}
+
+\begin{equation}
+\label{ref2}
+I_{RC}=\rho I_{B}(\sin{(\beta)}+C)\left(\frac{1-\cos{(\Sigma)}}{2}\right)
+\end{equation}
+
+\begin{equation}
+\label{totc1}
+I_{C}=I_{BC}+I_{DC}+I_{RC}
+\end{equation}
+
+\begin{equation}
+\label{totc2}
+    \begin{aligned}
+        I_{C}
+        =Ae^{-km} \left[ \cos{(\beta)}\cos{(\phi_{S}-\phi_{C})}\sin{(\Sigma)} \\
+       & + \sin{(\beta)}\cos{(\Sigma)} + C\left(\frac{1+\cos{(\Sigma)}}{2}\right) \\ \\
+      & +\rho(\sin{(\beta)}+C)\left.\left(\frac{1-\cos{(\Sigma)}}{2}\right)\right]
+   \end{aligned}
+\end{equation}
+
+\begin{equation}
+\label{tda1}
+I_{BC}=I_{B}
+\end{equation}
+
+\begin{equation}
+\label{tda2}
+I_{DC}=CI_{B} \left[ \frac{1+\cos{(90^{\circ}-\beta)}}{2} \right]
+\end{equation}
+
+\begin{equation}
+\label{tda3}
+I_{RC}=\rho(I_{BH}+I_{DH})\left[\frac{1-\cos{(90^{\circ}-\beta)}}{2}\right]
+\end{equation}
+
+\begin{equation}
+\label{sat1}
+\Sigma_{effective}=90^{\circ}-\beta +\delta
+\end{equation}
+
+\begin{equation}
+\label{sat2}
+I_{BC}=I_{B}\cos{(\delta)}
+\end{equation}
+
+\begin{equation}
+\label{sat3}
+I_{DC}=CI_{B} \left[ \frac{1+\cos{(90^{\circ}-\beta+\delta)}}{2} \right]
+\end{equation}
+
+
+\begin{equation}
+\label{sat4}
+I_{RC}=\rho(I_{BH}+I_{DH})\left[\frac{1-\cos{(90^{\circ}-\beta+\delta)}}{2}\right]
+\end{equation}
+
+
+
+
+\end{document}
+
+
+
+\\
+\begin{equation}
+\begin{aligned} % use \\ & for braking line
+
+ \end{aligned}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+
+\end{split
+\end{equation*}
+
+\begin{eqnarray}
+& &%% use apersand around symbols to be centered
+\end{eqnarray}
+
+\begin{equation*}
+
+\end{equation*}
+
+
+\\
+
+\end{document}
+

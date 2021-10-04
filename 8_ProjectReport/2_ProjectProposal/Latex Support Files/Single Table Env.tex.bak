@@ -1,0 +1,287 @@
+%% Single Table Environment
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\graphicspath{{Images/}} %% Path to find Image Files
+\usepackage{caption} %% For using Sub-Figure and Sub-Table Environments
+\usepackage{subcaption}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+\renewcommand{\arraystretch}{1.5}
+
+\usepackage{float}
+\usepackage[section]{placeins} % \FloatBarrier, it avoids floating of tables and
+
+\begin{document}
+
+
+
+
+\begin{table}[H]
+  \centering
+  \caption{Add caption}
+%%From Excet to LATEX Add-In  
+    \begin{tabular}{|c|l|l|l|l|l|l|}
+    \hline
+    \textbf{} & \multicolumn{1}{c|}{\textbf{Name}} & \textbf{MW} & \textbf{MWh} & \multicolumn{1}{c|}{\textbf{MWh P}} & \textbf{MWh/MW } & \textbf{MWh/MW P} \bigstrut\\
+    \hline
+    \textbf{Mono } & LANCO  & 15.0 & 20506.3 & 27379.0 & 1367.1 & 1825.3 \bigstrut\\
+\cline{2-7}       & \textbf{Tot Energy} & \textbf{15.0} & \textbf{20506.3} & \textbf{27379.0} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{MWh/MW} &    & \textbf{1367.1} & \textbf{1825.3} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{Average} &    &    &    & \textbf{1367.1} & \textbf{1825.3} \bigstrut\\
+    \hline
+    \multirow{13}[26]{*}{\textbf{Poly }} & GSPC  & 5.0 & 8906.5 & 8358.0 & 1781.3 & 1671.6 \bigstrut\\
+\cline{2-7}       & Surana  & 5.0 & 7899.3 & 9053.0 & 1579.9 & 1810.6 \bigstrut\\
+\cline{2-7}       & NKG  & 10.0 & 17729.4 & 17168.0 & 1772.9 & 1716.8 \bigstrut\\
+\cline{2-7}       & GMR  & 25.0 & 42603.7 & 44041.0 & 1704.1 & 1761.6 \bigstrut\\
+\cline{2-7}       & Sun Edison & 25.0 & 42255.0 & 43728.0 & 1690.2 & 1749.1 \bigstrut\\
+\cline{2-7}       & Emami  & 10.0 & 16958.8 & 17954.0 & 1695.9 & 1795.4 \bigstrut\\
+\cline{2-7}       & GPCL & 5.0 & 7952.3 & 8863.0 & 1590.5 & 1772.6 \bigstrut\\
+\cline{2-7}       & Palace & 15.0 & 26336.3 & 26946.0 & 1755.8 & 1796.4 \bigstrut\\
+\cline{2-7}       & Avtar  & 5.0 & 8117.1 & 8611.0 & 1623.4 & 1722.2 \bigstrut\\
+\cline{2-7}       & Torrent  & 51.0 & 77483.7 & 89184.0 & 1519.3 & 1748.7 \bigstrut\\
+\cline{2-7}       & \textbf{Tot Energy} & \textbf{156.0} & \textbf{256241.9} & \textbf{273906.0} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{MWh/MW} &    & \textbf{1642.6} & \textbf{1755.8} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{Average} &    &    &    & \textbf{1671.3} & \textbf{1754.5} \bigstrut\\
+    \hline
+    \multirow{10}[20]{*}{\textbf{Thin}} & Alex  & 25.0 & 41968.2 & 47372.0 & 1678.7 & 1894.9 \bigstrut\\
+\cline{2-7}       & ZF  & 5.0 & 8734.6 & 8722.0 & 1746.9 & 1744.4 \bigstrut\\
+\cline{2-7}       & Sun Clean & 6.0 & 10265.9 & 10408.0 & 1711.0 & 1734.7 \bigstrut\\
+\cline{2-7}       & Solarified & 20.0 & 34091.4 & 36212.0 & 1704.6 & 1810.6 \bigstrut\\
+\cline{2-7}       & AES  & 15.0 & 23241.9 & 26368.0 & 1549.5 & 1757.9 \bigstrut\\
+\cline{2-7}       & Roha  & 25.0 & 43540.3 & 47860.0 & 1741.6 & 1914.4 \bigstrut\\
+\cline{2-7}       & Yantra & 5.0 & 6981.4 & 8858.0 & 1396.3 & 1771.6 \bigstrut\\
+\cline{2-7}       & \textbf{Tot Energy} & \textbf{101.0} & \textbf{168823.7} & \textbf{185800.0} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{MWh/MW} &    & \textbf{1671.5} & \textbf{1839.6} &    &  \bigstrut\\
+\cline{2-7}       & \textbf{Average} &    &    &    & \textbf{1650.0} & \textbf{1804.1} \bigstrut\\
+    \hline
+    \end{tabular}%
+
+
+
+
+
+%% All above Code is copied from Excel to LATEX Add-In 
+    %\caption{Add caption}
+    \label{tabc2h2}%
+
+\end{table}
+
+\begin{table}[htbp]
+  \centering
+  \caption{PV Module Information}
+    \begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{TYPE} & \textbf{Poly} & \textbf{Mono} & \textbf{Cdte} & \textbf{A-si} \bigstrut\\
+    \hline
+    \textbf{MAKE} & Lanco & Lanco & First Solar & Du-Pont \bigstrut\\
+    \hline
+    \textbf{Crys/TF} & Crys & Crys & TF & TF \bigstrut\\
+    \hline
+    \textbf{Pmpp (W)} & 235 & 250 & 85 & 107 \bigstrut\\
+    \hline
+    \textbf{Vmpp (V)} & 29.56 & 31.15 & 46.4 & 74 \bigstrut\\
+    \hline
+    \textbf{Impp (A)} & 7.95 & 8.034 & 1.83 & 1.44 \bigstrut\\
+    \hline
+    \textbf{Voc (V)} & 37.17 & 38.04 & 60.5 & 99 \bigstrut\\
+    \hline
+    \textbf{Isc (A)} & 8.4 & 8.712 & 1.94 & 1.81 \bigstrut\\
+    \hline
+    \textbf{Kv} & -0.31 & -0.33 & -0.27 & -0.3 \bigstrut\\
+    \hline
+    \textbf{Ki} & 0.06 & 0.036 & 0.04 & 0.09 \bigstrut\\
+    \hline
+    \textbf{Kp} & -0.43 & -0.47 & -0.25 & -0.25 \bigstrut\\
+    \hline
+    \end{tabular}%
+  \label{tab:addlabel}%
+\end{table}%
+
+\newpage
+
+\begin{table}[H]
+  \centering
+%%From Excet to LATEX Add-In  
+   \caption{List of Solar PV Plants in Gujarat}
+
+    \begin{tabular}{|l|c|c|c|}
+    \hline
+    \textbf{Company Name} & \textbf{Lat } & \textbf{Long } & \textbf{Commissioned, MW} \bigstrut\\
+    \hline
+    Sunkon Energy Pvt. Ltd. & \textbf{20.9} & \textbf{71.3} & \textbf{10} \bigstrut\\
+    \hline
+    ACME Solar Technologies (Gujarat) Pvt. Ltd. & \textbf{22.3} & \textbf{72.4} & 15 \bigstrut\\
+    \hline
+    Precious Energy Services Pvt. Ltd. & \textbf{23.9} & \textbf{71.9} & \textbf{15.2} \bigstrut\\
+    \hline
+    Sandland Real Estate Pvt. Ltd. & \textbf{24.5} & \textbf{72.2} & \textbf{25} \bigstrut\\
+    \hline
+    Solitaire Energies Pvt. Ltd. & \textbf{23.9} & \textbf{71.9} & \textbf{15.01} \bigstrut\\
+    \hline
+    TATA Power Renewable Energy Ltd. & \textbf{22.4} & \textbf{69.0} & \textbf{25} \bigstrut\\
+    \hline
+    Mono Steel (India) Ltd. & \textbf{22.8} & \textbf{71.0} & \textbf{10} \bigstrut\\
+    \hline
+    Adani Enterprises Ltd. & \textbf{23.3} & \textbf{69.0} & 40.11 \bigstrut\\
+    \hline
+    Backbone Enterprises Ltd. & \textbf{23.4} & \textbf{70.6} & 5 \bigstrut\\
+    \hline
+    Euro Solar Power Pvt Ltd & \textbf{23.4} & \textbf{70.6} & \textbf{5.12} \bigstrut\\
+    \hline
+    Gujarat Mineral Development Company Ltd. & \textbf{23.8} & \textbf{68.8} & \textbf{5} \bigstrut\\
+    \hline
+    Integrated Coal Mining Ltd. & \textbf{23.4} & \textbf{70.7} & \textbf{9} \bigstrut\\
+    \hline
+    Konark Gujarat PV Pvt. Ltd. & \textbf{23.4} & \textbf{70.6} & \textbf{5} \bigstrut\\
+    \hline
+    Solar Semiconductor Power Company ( India) Pvt Ltd & \textbf{23.4} & \textbf{70.6} & \textbf{20} \bigstrut\\
+    \hline
+    Sunborne Energy Gujarat One Pvt.Ltd. & \textbf{23.4} & \textbf{70.4} & \textbf{15} \bigstrut\\
+    \hline
+    Unity Power Private Ltd.  & \textbf{23.4} & \textbf{70.1} & \textbf{5} \bigstrut\\
+    \hline
+    Welspun Urja Gujarat Pvt. Ltd. & \textbf{23.4} & \textbf{70.1} & \textbf{15.01} \bigstrut\\
+    \hline
+    AES Solar Energy Gujarat Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & 14.92 \bigstrut\\
+    \hline
+    Alex Astral Power Pvt. ltd. & \textbf{23.9} & \textbf{71.2} & 25.07 \bigstrut\\
+    \hline
+    Astonfield Solar (Gujarat) Private Limited  & \textbf{23.7} & \textbf{71.7} & 11.51 \bigstrut\\
+    \hline
+    Avtar Solar Power Pvt Ltd & \textbf{23.9} & \textbf{71.2} & 4.98 \bigstrut\\
+    \hline
+    Emami Cement Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{10.06} \bigstrut\\
+    \hline
+    GMR Gujarat Solar Power Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{25} \bigstrut\\
+    \hline
+    GSPC Pipavav Power Company Limited & \textbf{23.9} & \textbf{71.2} & \textbf{5} \bigstrut\\
+    \hline
+    Jaihind Projects Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{5} \bigstrut\\
+    \hline
+    Kindle Engg \& Const Pvt Ltd & \textbf{23.9} & \textbf{71.2} & \textbf{50} \bigstrut\\
+    \hline
+    Lanco Infratech Ltd & \textbf{23.9} & \textbf{71.2} & \textbf{15.01} \bigstrut\\
+    \hline
+    Lanco Infratech Ltd (BHRD) & \textbf{23.7} & \textbf{71.6} & \textbf{5} \bigstrut\\
+    \hline
+    Lanco Infratech Ltd (Chandiyana) & \textbf{23.7} & \textbf{71.6} & \textbf{15.01} \bigstrut\\
+    \hline
+    NKG Infrastructure Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{10} \bigstrut\\
+    \hline
+    \end{tabular}%
+
+%% All above Code is copied from Excel to LATEX Add-In 
+    %\caption{Add caption}
+    \label{tabc2h1}%
+
+\end{table}
+
+\begin{table}[H]
+  \centering
+%%From Excet to LATEX Add-In  
+    \begin{tabular}{|l|c|c|c|}
+    \hline
+    \textbf{Company Name} & \textbf{Lat (N)} & \textbf{Long (E)} & \textbf{Commissioned, MW} \bigstrut\\
+    \hline
+    Palace Solar Energy Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{15} \bigstrut\\
+    \hline
+    PLG Photovoltaics Ltd & \textbf{23.9} & \textbf{71.5} & \textbf{20} \bigstrut\\
+    \hline
+    Roha Dyechem Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{25.04} \bigstrut\\
+    \hline
+    Solarfield Energy Private Limited & \textbf{23.8} & \textbf{71.2} & \textbf{20.06} \bigstrut\\
+    \hline
+    Sun Clean Renewable Power Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{6} \bigstrut\\
+    \hline
+    Surana Telecom \& Power Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{5} \bigstrut\\
+    \hline
+    Torrent Solargen Limited & \textbf{23.9} & \textbf{71.2} & \textbf{51} \bigstrut\\
+    \hline
+    Yantra eSolar India Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{4.95} \bigstrut\\
+    \hline
+    Gujarat Power Corporation Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{5} \bigstrut\\
+    \hline
+    SEI Solar Power Gujarat Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{25.01} \bigstrut\\
+    \hline
+    ZF Steering Gear(India) Pvt. Ltd. & \textbf{23.9} & \textbf{71.2} & \textbf{5} \bigstrut\\
+    \hline
+    GHI Energy Pvt. Ltd. (SPV of Refex) & \textbf{21.6} & \textbf{69.9} & \textbf{10} \bigstrut\\
+    \hline
+    Hiraco Renewable Energy Pvt. Ltd. & \textbf{21.6} & \textbf{69.9} & \textbf{20.11} \bigstrut\\
+    \hline
+    Moserbaer Energy \& Development Ltd. & \textbf{21.6} & \textbf{69.9} & \textbf{15.02} \bigstrut\\
+    \hline
+    APCA Power Pvt. Ltd. & \textbf{21.8} & \textbf{70.1} & 5 \bigstrut\\
+    \hline
+    Aravali Infrapower Ltd. & \textbf{21.8} & \textbf{70.1} & 5 \bigstrut\\
+    \hline
+    CBC Solar Technologies Pvt. Ltd.  & \textbf{21.7} & \textbf{70.1} & 10 \bigstrut\\
+    \hline
+    Ganeshvani Merchandise Pvt Ltd & \textbf{21.7} & \textbf{70.1} & \textbf{5.04} \bigstrut\\
+    \hline
+    Ganges Green Energy Pvt Ltd. & \textbf{21.7} & \textbf{70.1} & \textbf{25.08} \bigstrut\\
+    \hline
+    Green Infra Solar Energy Ltd. & \textbf{21.7} & \textbf{70.1} & \textbf{10} \bigstrut\\
+    \hline
+    Taxus Infrastructure \& Power Project Pvt.Ltd & \textbf{23.3} & \textbf{70.0} & \textbf{5} \bigstrut\\
+    \hline
+    Aatash Power Pvt. Ltd. & \textbf{23.6} & \textbf{73.3} & 4.99 \bigstrut\\
+    \hline
+    Azure Power (Haryana) Pvt. Ltd. & \textbf{23.4} & \textbf{73.2} & 10.21 \bigstrut\\
+    \hline
+    Gujarat Industries Power Company Ltd. & \textbf{21.4} & \textbf{73.1} & \textbf{5.01} \bigstrut\\
+    \hline
+    Azure Power (Gujarat) Pvt. Ltd. & \textbf{23.2} & \textbf{71.4} & 5 \bigstrut\\
+    \hline
+    Chattel Constructions Private Ltd. & \textbf{23.3} & \textbf{71.8} & 25.04 \bigstrut\\
+    \hline
+    Dreisatz MySolar24 (P) Ltd. & \textbf{23.4} & \textbf{71.6} & 14.99 \bigstrut\\
+    \hline
+    EMCO Ltd. & \textbf{23.4} & \textbf{71.6} & \textbf{5} \bigstrut\\
+    \hline
+    ESP Urja Pvt. Ltd. & \textbf{23.5} & \textbf{71.7} & \textbf{5} \bigstrut\\
+    \hline
+    Louroux Bio Energies Ltd.  & \textbf{22.7} & \textbf{71.4} & \textbf{25} \bigstrut\\
+    \hline
+    \end{tabular}%
+
+%% All above Code is copied from Excel to LATEX Add-In 
+    %\caption{Add caption}
+    %\label{}%
+
+\end{table}
+
+\begin{table}[H]
+  \centering
+%%From Excet to LATEX Add-In  
+    \begin{tabular}{|l|c|c|c|}
+    \hline
+    \textbf{Company Name} & \textbf{Lat (N)} & \textbf{Long (E)} & \textbf{Commissioned, MW} \bigstrut\\
+    \hline
+    MI MySolar24 (P) Ltd,  & \textbf{23.4} & \textbf{71.6} & \textbf{14.99} \bigstrut\\
+    \hline
+    Millennium Synergy (Gujarat) Pvt. Ltd. & \textbf{23.4} & \textbf{71.7} & \textbf{9.27} \bigstrut\\
+    \hline
+    Responsive sutip ltd. & \textbf{23.1} & \textbf{71.9} & \textbf{25.06} \bigstrut\\
+    \hline
+    S J Green Park Energy Pvt. Ltd & \textbf{22.7} & \textbf{71.4} & \textbf{5.12} \bigstrut\\
+    \hline
+    Ujjawala Power Pvt Ltd & \textbf{23.1} & \textbf{71.9} & \textbf{23.06} \bigstrut\\
+    \hline
+    Visual Percept Solar Projects Pvt. Ltd. & \textbf{23.5} & \textbf{71.6} & \textbf{25} \bigstrut\\
+    \hline
+    Waa Solar Pvt. Ltd. & \textbf{22.7} & \textbf{71.4} & \textbf{10.25} \bigstrut\\
+    \hline
+    SSNL, SAMA & \textbf{22.3} & \textbf{73.2} & \textbf{10} \bigstrut\\
+    \hline
+       & \textbf{} & \textbf{Total} & \textbf{852.31} \bigstrut\\
+    \hline
+    \end{tabular}%
+
+
+%% All above Code is copied from Excel to LATEX Add-In 
+    %\caption{Add caption}
+    %\label{}%
+
+\end{table}
+
+\end{document}

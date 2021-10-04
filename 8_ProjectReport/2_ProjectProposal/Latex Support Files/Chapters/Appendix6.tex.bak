@@ -1,0 +1,8 @@
+%% Appendix6
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{WrfNetcdfApp}
+\caption{WRF NETCDF Visualization and Extraction App GUI}
+\label{figApp6_1} %% to refer use, \ref{}
+\end{figure}

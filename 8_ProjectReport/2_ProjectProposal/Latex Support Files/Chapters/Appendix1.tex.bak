@@ -1,0 +1,94 @@
+%% Appendix 1 : MATLAB Code for PV Energy Evaluation Model
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{SolarAppGui2}
+\caption{PV I-V and P-V Curve Generator App GUI}
+\label{figApp1_2} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{SolarAppGui3}
+\caption{String and Inverter Sizing MApp GUI}
+\label{figApp1_3} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{SolarAppGui4}
+\caption{Sun Path Diagram App GUI}
+\label{figApp1_6} %% to refer use, \ref{}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{SolarAppGui8}
+\caption{Solar and Regional Clock App GUI}
+\label{figApp1_4} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{SolarAppGui5}
+\caption{Solar Energy Estimation App GUI}
+\label{figApp1_5} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppFixedTilt}
+\caption{Fixed Tilt Data GUI}
+\label{figApp1_6} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppSeasonalTilt}
+\caption{Seasonal Tilt Data GUI}
+\label{figApp1_7} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppSingleEW}
+\caption{Single Axis East-West Tracker Data GUI}
+\label{figApp1_8} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppSingleNS}
+\caption{Single Axis North-South Tracker Data GUI}
+\label{figApp1_9} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppDoubleAxis}
+\caption{Double Axis Tracker Data GUI}
+\label{figApp1_10} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{SolarAppRainyMonthsGUI}
+\caption{Rainy Months GUI}
+\label{figApp1_11} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{SolarAppLossParameters}
+\caption{Loss Parameters GUI}
+\label{figApp1_12} %% to refer use, \ref{}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{SolarAppGui7}
+\caption{Grid Connected PV Energy Result Screen}
+\label{figApp1_13} %% to refer use, \ref{}
+\end{figure}

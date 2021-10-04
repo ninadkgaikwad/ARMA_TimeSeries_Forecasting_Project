@@ -1,0 +1,8 @@
+%% Appendix5
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{DataPreProcSys}
+\caption{Data Pre-Processing App GUI}
+\label{figApp5_1} %% to refer use, \ref{}
+\end{figure}

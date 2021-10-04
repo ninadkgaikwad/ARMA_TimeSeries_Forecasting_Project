@@ -1,0 +1,591 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.11.29)  5 DEC 2018 18:52
+entering extended mode
+**./REForecastingARMA_NinadKarthik_ProjectProposal.tex
+(REForecastingARMA_NinadKarthik_ProjectProposal.tex
+LaTeX2e <2018-04-01> patch level 5
+(IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1p
+tm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 10 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@IEEEsubequation=\count87
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count88
+\c@table=\count89
+\@IEEEeqnnumcols=\count90
+\@IEEEeqncolcnt=\count91
+\@IEEEsubeqnnumrollback=\count92
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count93
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count94
+\@IEEEtranrubishbin=\box27
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float
+.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count95
+\float@exts=\toks15
+\float@box=\box28
+\@float@everytoks=\toks16
+\@floatcapt=\box29
+) (placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.s
+ty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gr
+aphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\ke
+yval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gr
+aphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\tr
+ig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cf
+g\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-de
+f\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\ams
+math.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\ams
+text.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\ams
+gen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen128
+))
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\ams
+bsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen129
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\ams
+opn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks19
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks20
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks21
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array
+.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen137
+\ar@mcellbox=\box32
+\extrarowheight=\dimen138
+\NC@list=\toks23
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box33
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fixltx
+2e.sty"
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (REForecastingARMA_NinadKarthik_ProjectProposal.aux
+
+LaTeX Warning: Label `tab5' multiply defined.
+
+
+LaTeX Warning: Label `fig13' multiply defined.
+
+)
+\openout1 = `REForecastingARMA_NinadKarthik_ProjectProposal.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 357.
+LaTeX Font Info:    ... okay on input line 357.
+
+-- Lines per column: 58 (exact).
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp
+-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen139
+\scratchbox=\box34
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen140
+\MPnumerator=\count112
+\makeMPintoPDFobject=\count113
+\everyMPtoPDFconversion=\toks25
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\ep
+stopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\gr
+fext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kv
+options.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+pdftexcmds.sty"
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Underfull \hbox (badness 2600) in paragraph at lines 479--484
+[]\OT1/ptm/m/n/10 \A sta-tion-ary pro-cess is a stochas-tic pro-cess whose
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--484
+
+ []
+
+[1{C:/Users/ninadgaikwad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 2245) in paragraph at lines 501--502
+\OT1/ptm/m/n/10 Squares (LS) and Max-i-mum Like-li-hood Es-ti-ma-tion
+ []
+
+<Images/ObjectivesSchematic.png, id=9, 378.66469pt x 454.69875pt>
+File: Images/ObjectivesSchematic.png Graphic file (type png)
+<use Images/ObjectivesSchematic.png>
+Package pdftex.def Info: Images/ObjectivesSchematic.png  used on input line 520
+.
+(pdftex.def)             Requested size: 151.46318pt x 181.87627pt.
+<Images/DataTransformationSchematic.png, id=11, 394.47375pt x 186.6975pt>
+File: Images/DataTransformationSchematic.png Graphic file (type png)
+<use Images/DataTransformationSchematic.png>
+Package pdftex.def Info: Images/DataTransformationSchematic.png  used on input 
+line 533.
+(pdftex.def)             Requested size: 256.40489pt x 121.35193pt.
+
+Overfull \hbox (4.40489pt too wide) in paragraph at lines 533--534
+ [][] 
+ []
+
+<Images/TransformedDataPlot.png, id=12, 1445.4pt x 724.95844pt>
+File: Images/TransformedDataPlot.png Graphic file (type png)
+<use Images/TransformedDataPlot.png>
+Package pdftex.def Info: Images/TransformedDataPlot.png  used on input line 540
+.
+(pdftex.def)             Requested size: 289.07487pt x 144.98912pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 540--541
+ [][] 
+ []
+
+<Images/ARMASteps.png, id=13, 327.47343pt x 383.18156pt>
+File: Images/ARMASteps.png Graphic file (type png)
+<use Images/ARMASteps.png>
+Package pdftex.def Info: Images/ARMASteps.png  used on input line 554.
+(pdftex.def)             Requested size: 245.60448pt x 287.38545pt.
+[2 <./Images/ObjectivesSchematic.png> <./Images/DataTransformationSchematic.png
+> <./Images/TransformedDataPlot.png (PNG copy)>]
+<Images/ForecastResultsOneWeek.png, id=20, 718.93594pt x 538.26094pt>
+File: Images/ForecastResultsOneWeek.png Graphic file (type png)
+<use Images/ForecastResultsOneWeek.png>
+Package pdftex.def Info: Images/ForecastResultsOneWeek.png  used on input line 
+617.
+(pdftex.def)             Requested size: 251.63135pt x 188.39415pt.
+<Images/ForecastResultsTwoWeek.png, id=21, 721.19438pt x 529.98pt>
+File: Images/ForecastResultsTwoWeek.png Graphic file (type png)
+<use Images/ForecastResultsTwoWeek.png>
+Package pdftex.def Info: Images/ForecastResultsTwoWeek.png  used on input line 
+624.
+(pdftex.def)             Requested size: 252.42181pt x 185.49577pt.
+ [3 <./Images/ARMASteps.png> <./Images/ForecastResultsOneWeek.png> <./Images/Fo
+recastResultsTwoWeek.png>]
+<Images/ForecastOneWeekDayTwo.png, id=38, 713.66624pt x 525.46312pt>
+File: Images/ForecastOneWeekDayTwo.png Graphic file (type png)
+<use Images/ForecastOneWeekDayTwo.png>
+Package pdftex.def Info: Images/ForecastOneWeekDayTwo.png  used on input line 6
+36.
+(pdftex.def)             Requested size: 249.78693pt x 183.91484pt.
+<Images/ForecastTwoWeekDayTwo.png, id=39, 712.16063pt x 540.51938pt>
+File: Images/ForecastTwoWeekDayTwo.png Graphic file (type png)
+<use Images/ForecastTwoWeekDayTwo.png>
+Package pdftex.def Info: Images/ForecastTwoWeekDayTwo.png  used on input line 6
+43.
+(pdftex.def)             Requested size: 249.25995pt x 189.18462pt.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 753.
+
+
+("C:\Users\ninadgaikwad\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsp
+tm.fd"
+File: omsptm.fd 
+)
+
+LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
+(Font)              using `OMS/ptm/m/n' instead
+(Font)              for symbol `textbackslash' on input line 753.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 753.
+
+Overfull \hbox (37.14998pt too wide) in paragraph at lines 751--758
+ [][] 
+ []
+
+<Images/Undifferenced_5Min_Diamond300.png, id=40, 583.42969pt x 438.8897pt>
+File: Images/Undifferenced_5Min_Diamond300.png Graphic file (type png)
+<use Images/Undifferenced_5Min_Diamond300.png>
+Package pdftex.def Info: Images/Undifferenced_5Min_Diamond300.png  used on inpu
+t line 775.
+(pdftex.def)             Requested size: 233.36774pt x 175.55276pt.
+<Images/SingleLag_5Min_Diamond300.png, id=41, 579.66562pt x 432.11438pt>
+File: Images/SingleLag_5Min_Diamond300.png Graphic file (type png)
+<use Images/SingleLag_5Min_Diamond300.png>
+Package pdftex.def Info: Images/SingleLag_5Min_Diamond300.png  used on input li
+ne 783.
+(pdftex.def)             Requested size: 231.86214pt x 172.84268pt.
+<Images/SingleSeasonalLag_5Min_Diamond300.png, id=42, 587.19376pt x 427.5975pt>
+
+File: Images/SingleSeasonalLag_5Min_Diamond300.png Graphic file (type png)
+<use Images/SingleSeasonalLag_5Min_Diamond300.png>
+Package pdftex.def Info: Images/SingleSeasonalLag_5Min_Diamond300.png  used on 
+input line 790.
+(pdftex.def)             Requested size: 234.87334pt x 171.03596pt.
+LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 821.
+<Images/ARMA_model_selection.png, id=43, 1445.4pt x 704.6325pt>
+File: Images/ARMA_model_selection.png Graphic file (type png)
+<use Images/ARMA_model_selection.png>
+Package pdftex.def Info: Images/ARMA_model_selection.png  used on input line 84
+2.
+(pdftex.def)             Requested size: 289.07487pt x 140.924pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 842--843
+ [][] 
+ []
+
+<Images/Training_length_comparison_plot.png, id=44, 1445.4pt x 704.6325pt>
+File: Images/Training_length_comparison_plot.png Graphic file (type png)
+<use Images/Training_length_comparison_plot.png>
+Package pdftex.def Info: Images/Training_length_comparison_plot.png  used on in
+put line 875.
+(pdftex.def)             Requested size: 289.07487pt x 140.924pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 875--876
+ [][] 
+ []
+
+<Images/DiffTimeResolution_5_15_Min.png, id=45, 1445.4pt x 724.95844pt>
+File: Images/DiffTimeResolution_5_15_Min.png Graphic file (type png)
+<use Images/DiffTimeResolution_5_15_Min.png>
+Package pdftex.def Info: Images/DiffTimeResolution_5_15_Min.png  used on input 
+line 899.
+(pdftex.def)             Requested size: 289.07487pt x 144.98912pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 899--900
+ [][] 
+ []
+
+<Images/DiffTimeResolution_60_120_Min.png, id=46, 1445.4pt x 724.95844pt>
+File: Images/DiffTimeResolution_60_120_Min.png Graphic file (type png)
+<use Images/DiffTimeResolution_60_120_Min.png>
+Package pdftex.def Info: Images/DiffTimeResolution_60_120_Min.png  used on inpu
+t line 906.
+(pdftex.def)             Requested size: 289.07487pt x 144.98912pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 906--907
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./Images/ForecastOneWeekDayTwo.png> <./Images/ForecastTwoWeekDayTwo.png> <
+./Images/Undifferenced_5Min_Diamond300.png> <./Images/SingleLag_5Min_Diamond300
+.png>]
+[5 <./Images/SingleSeasonalLag_5Min_Diamond300.png> <./Images/ARMA_model_select
+ion.png (PNG copy)> <./Images/Training_length_comparison_plot.png (PNG copy)>]
+<Images/AR_methods_plot.png, id=59, 1445.4pt x 704.6325pt>
+File: Images/AR_methods_plot.png Graphic file (type png)
+<use Images/AR_methods_plot.png>
+Package pdftex.def Info: Images/AR_methods_plot.png  used on input line 939.
+(pdftex.def)             Requested size: 289.07487pt x 140.924pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 939--940
+ [][] 
+ []
+
+<Images/MA_methods_plot.png, id=60, 1445.4pt x 704.6325pt>
+File: Images/MA_methods_plot.png Graphic file (type png)
+<use Images/MA_methods_plot.png>
+Package pdftex.def Info: Images/MA_methods_plot.png  used on input line 970.
+(pdftex.def)             Requested size: 289.07487pt x 140.924pt.
+
+Overfull \hbox (37.07487pt too wide) in paragraph at lines 970--971
+ [][] 
+ []
+
+[6 <./Images/DiffTimeResolution_5_15_Min.png (PNG copy)> <./Images/DiffTimeReso
+lution_60_120_Min.png (PNG copy)> <./Images/AR_methods_plot.png (PNG copy)> <./
+Images/MA_methods_plot.png (PNG copy)>]
+(REForecastingARMA_NinadKarthik_ProjectProposal.bbl) [7
+
+]
+(REForecastingARMA_NinadKarthik_ProjectProposal.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3241 strings out of 492973
+ 53509 string characters out of 3123590
+ 144167 words of memory out of 3000000
+ 7050 multiletter control sequences out of 15000+200000
+ 41886 words of font info for 78 fonts, out of 3000000 for 9000
+ 1144 hyphenation exceptions out of 8191
+ 41i,13n,25p,926b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base
+/8r.enc}<C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/ninadgaikwad/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi5.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ninadgaikwad/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/n
+inadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/ninadgaikwad/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/nina
+dgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/times/utmbi8a.pfb><C:/Users/ninadgaikwad/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ninadgaikwad/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on REForecastingARMA_NinadKarthik_ProjectProposal.pdf (7 pages, 
+1187419 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

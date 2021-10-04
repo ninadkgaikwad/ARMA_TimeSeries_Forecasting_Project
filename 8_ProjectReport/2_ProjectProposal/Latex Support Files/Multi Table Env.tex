@@ -1,0 +1,48 @@
+%% Multi Table Environment
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\graphicspath{{Images/}} %% Path to find Image Files
+\usepackage{caption} %% For using Sub-Figure and Sub-Table Environments
+\usepackage{subcaption}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm]{geometry}
+
+
+\usepackage{float}
+\usepackage[section]{placeins} % \FloatBarrier, it avoids floating of tables and
+
+\begin{document}
+
+\begin{table}[H]
+    \begin{subtable}[h]{0.45\textwidth}
+        \centering
+        %% From Excel To LATEX Add-In
+        \begin{tabular}{rrrrrrrr}
+    1     & 2     & 3     & 4     & 5     & 6     & 7     & 8 \\
+    a     & s     & d     & f     & g     & h     & j     & k \\
+    1     & 2     & 3     & 4     & 5     & 6     & 7     & 7 \\
+    \end{tabular}%
+        %% From Excel To LATEX Add-In
+        \caption{}
+        \label{}
+     \end{subtable}     
+     \hfill %% Fill Horizontal Space between two Tables
+     \begin{subtable}[h]{0.45\textwidth}
+        \centering
+        %% From Excel To LATEX Add-In
+        \begin{tabular}{rrrrrrrr}
+    1     & 2     & 3     & 4     & 5     & 6     & 7     & 8 \\
+    a     & s     & d     & f     & g     & h     & j     & k \\
+    1     & 2     & 3     & 4     & 5     & 6     & 7     & 7 \\
+    \end{tabular}%
+        %% From Excel To LATEX Add-In
+        \caption{}
+        \label{}
+    \end{subtable} 
+     
+    \caption{}
+    \label{}
+    
+\end{table}   
+
+\end{document} 
+          

@@ -1,0 +1,136 @@
+\begin{thebibliography}{10}
+
+\bibitem{elsann6}
+A.~Alzahrani, J.W. Kimball, and C.~Dagli.
+\newblock Predicting solar irradiance using time series neural networks.
+\newblock {\em Procedia Computer Science}, 36:623 -- 628, 2014.
+\newblock Complex Adaptive Systems Philadelphia, \{PA\} November 3-5, 2014.
+
+\bibitem{elsstochastic1}
+J.M. Bright, C.J. Smith, P.G. Taylor, and R.~Crook.
+\newblock Stochastic generation of synthetic minutely irradiance time series
+  derived from mean hourly weather observation data.
+\newblock {\em Solar Energy}, 115:229 -- 242, 2015.
+
+\bibitem{elsann5}
+Charnon Chupong and Boonyang Plangklang.
+\newblock Forecasting power output of \{PV\} grid connected system in thailand
+  without using solar radiation measurement.
+\newblock {\em Energy Procedia}, 9:230 -- 237, 2011.
+\newblock 9th Eco-Energy and Materials Science and Engineering Symposium.
+
+\bibitem{elsghi2}
+Yang Dazhi, Panida Jirutitijaroen, and Wilfred~M. Walsh.
+\newblock The estimation of clear sky global horizontal irradiance at the
+  equator.
+\newblock {\em Energy Procedia}, 25:141 -- 148, 2012.
+\newblock \{PV\} Asia Pacific Conference 2011.
+
+\bibitem{elsbm1}
+Yang Dazhi, Wilfred~M. Walsh, Dong Zibo, Panida Jirutitijaroen, and Thomas~G.
+  Reindl.
+\newblock Block matching algorithms: Their applications and limitations in
+  solar irradiance forecasting.
+\newblock {\em Energy Procedia}, 33:335 -- 342, 2013.
+\newblock \{PV\} Asia Pacific Conference 2012.
+
+\bibitem{elswrf1}
+Maimouna Diagne, Mathieu David, John Boland, Nicolas Schmutz, and Philippe
+  Lauret.
+\newblock Post-processing of solar irradiance forecasts from \{WRF\} model at
+  reunion island.
+\newblock {\em Solar Energy}, 105:99 -- 108, 2014.
+
+\bibitem{elsann2}
+Ming Ding, Lei Wang, and Rui Bi.
+\newblock An ann-based approach for forecasting the power output of
+  photovoltaic system.
+\newblock {\em Procedia Environmental Sciences}, 11, Part C:1308 -- 1315, 2011.
+\newblock 2011 2nd International Conference on Challenges in Environmental
+  Science and Computer Engineering (CESCE 2011).
+
+\bibitem{elsmcclear1}
+Yehia Eissa, Saima Munawwar, Armel Oumbe, Philippe Blanc, Hosni Ghedira, Lucien
+  Wald, Hélène Bru, and Dominique Goffe.
+\newblock Validating surface downwelling solar irradiances estimated by the
+  mcclear model under cloud-free skies in the united arab emirates.
+\newblock {\em Solar Energy}, 114:17 -- 31, 2015.
+
+\bibitem{elslinearreg1}
+S.~Ibrahim, I.~Daut, Y.M. Irwan, M.~Irwanto, N.~Gomesh, and Z.~Farhana.
+\newblock Linear regression model in estimating solar radiation in perlis.
+\newblock {\em Energy Procedia}, 18:1402 -- 1412, 2012.
+\newblock Terragreen 2012: Clean Energy Solutions for Sustainable Environment
+  (CESSE).
+
+\bibitem{elsneufuzz1}
+I.~Jayawardene and G.K. Venayagamoorthy.
+\newblock Comparison of adaptive neuro-fuzzy inference systems and echo state
+  networks for \{PV\} power prediction.
+\newblock {\em Procedia Computer Science}, 53:92 -- 102, 2015.
+\newblock \{INNS\} Conference on Big Data 2015 Program San Francisco, CA,
+  \{USA\} 8-10 August 2015.
+
+\bibitem{elsann4}
+K.~Kadirgama, A.K. Amirruddin, and R.A. Bakar.
+\newblock Estimation of solar radiation by artificial networks: East coast
+  malaysia.
+\newblock {\em Energy Procedia}, 52:383 -- 388, 2014.
+\newblock 2013 International Conference on Alternative Energy in Developing
+  Countries and Emerging Economies (2013 AEDCEE).
+
+\bibitem{elsann1}
+Philippe Lauret, Maïmouna Diagne, and Mathieu David.
+\newblock A neural network post-processing approach to improving \{NWP\} solar
+  radiation forecasts.
+\newblock {\em Energy Procedia}, 57:1044 -- 1052, 2014.
+\newblock 2013 \{ISES\} Solar World Congress.
+
+\bibitem{elswavelet1}
+Paras Mandal, Surya Teja~Swarroop Madhira, Ashraf~Ul haque, Julian Meng, and
+  Ricardo~L. Pineda.
+\newblock Forecasting power output of solar photovoltaic system using wavelet
+  transform and artificial intelligence techniques.
+\newblock {\em Procedia Computer Science}, 12:332 -- 337, 2012.
+\newblock Complex Adaptive Systems 2012.
+
+\bibitem{elsnwp1}
+Hideaki Ohtake, Joao~Gali da~Silva Fonseca~Jr, Takumi Takashima, Takashi
+  Oozeki, and Yoshinori Yamada.
+\newblock Estimation of confidence intervals of global horizontal irradiance
+  obtained from a weather prediction model.
+\newblock {\em Energy Procedia}, 59:278 -- 284, 2014.
+\newblock European Geosciences Union General Assembly 2014, \{EGU\} Division
+  Energy, Resources &amp; the Environment (ERE).
+
+\bibitem{elsghi1}
+Hideaki Ohtake, Joao~Gari da~Silva Fonseca~Jr., Takumi Takashima, Takashi
+  Oozeki, Ken ichi Shimose, and Yoshinori Yamada.
+\newblock Regional and seasonal characteristics of global horizontal irradiance
+  forecasts obtained from the japan meteorological agency mesoscale model.
+\newblock {\em Solar Energy}, 116:83 -- 99, 2015.
+
+\bibitem{elsann3}
+Shahril~Irwan Sulaiman, Titik Khawa~Abdul Rahman, Ismail Musirin, and Sulaiman
+  Shaari.
+\newblock An artificial immune-based hybrid multi-layer feedforward neural
+  network for predicting grid-connected photovoltaic system output.
+\newblock {\em Energy Procedia}, 14:260 -- 264, 2012.
+\newblock 2011 2nd International Conference on Advances in Energy Engineering
+  (ICAEE).
+
+\bibitem{elstimeseries1}
+Cyril Voyant, Christophe Paoli, Marc Muselli, and Marie-Laure Nivet.
+\newblock Multi-horizon solar radiation forecasting for mediterranean locations
+  using time series models.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 28:44 -- 52, 2013.
+
+\bibitem{elsr1}
+Z.W. Zheng, Y.Y. Chen, M.M. Huo, and B.~Zhao.
+\newblock An overview: the development of prediction technology of wind and
+  photovoltaic power generation.
+\newblock {\em Energy Procedia}, 12:601 -- 608, 2011.
+\newblock The Proceedings of International Conference on Smart Grid and Clean
+  Energy Technologies (ICSGCE 2011.
+
+\end{thebibliography}

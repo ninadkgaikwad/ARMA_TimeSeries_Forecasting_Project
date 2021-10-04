@@ -1,0 +1,154 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3962468448" file="D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App\ARIMA_Forecasting_App.prj" location="D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App" name="ARIMA_Forecasting_App" preferred-package-location="D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App\ARIMA_Forecasting_App\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ARIMA_Forecasting_App</param.appname>
+    <param.icon>${PROJECT_ROOT}\ARIMA_Forecasting_App_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\ARIMA_Forecasting_App_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\ARIMA_Forecasting_App_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\ARIMA_Forecasting_App_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\ARIMA_Forecasting_App_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Ninad Kiran Gaikwad</param.authnamewatermark>
+    <param.email>ninad.g@germi.res.in</param.email>
+    <param.company>GERMI</param.company>
+    <param.summary>This app allows the user to make univariate time series forecasts</param.summary>
+    <param.description>This app provides for a step-wise approach to model and predict time series data using ARIMA, hence it is composed of the following interlinked apps:
+1. Data_Acquistion_App
+2. Model_Identifier_App
+3. Model_Creation_App
+4. Model_Simulation_App
+5. Model_Estimation_App
+6. Model_Forecasting_App</param.description>
+    <param.screenshot>${PROJECT_ROOT}\App_Images\ARIMA_Splash_Img.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\GERMI\ARIMA_Forecasting_App\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\ARIMA_Forecasting_App\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\ARIMA_Forecasting_App\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\ARIMA_Forecasting_App\for_redistribution</param.output>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.required.mcr.products>
+      <item>35000</item>
+      <item>35010</item>
+      <item>35001</item>
+    </param.required.mcr.products>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ARIMA_DataAcquisition_GUI.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\ARIMA_DataAcquisition_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelCreation_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelCreation_GUI.m</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelEstimateViewer_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelEstimateViewer_GUI.m</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelEstimation_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelEstimation_GUI.m</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelForecast_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelForecast_GUI.m</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelIdentification_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelIdentification_GUI.m</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelSimulation_GUI.fig</file>
+      <file>${PROJECT_ROOT}\ARIMA_ModelSimulation_GUI.m</file>
+      <file>${PROJECT_ROOT}\DateTimeSeriesSlicer.m</file>
+      <file>${PROJECT_ROOT}\DaysToCompute.m</file>
+      <file>${PROJECT_ROOT}\LeapYearFinder.m</file>
+      <file>${PROJECT_ROOT}\RowsColsToComputeDataCleaning.m</file>
+      <file>${PROJECT_ROOT}\StartEndCalender.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\ARIMA_Forecasting_App\for_testing" name="readme.txt" optional="true">D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App\ARIMA_Forecasting_App\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\ARIMA_Forecasting_App\for_testing" name="splash.png" optional="false">D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App\ARIMA_Forecasting_App\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\ARIMA_Forecasting_App\for_testing" name="ARIMA_Forecasting_App.exe" optional="false">D:\Ninad Gaikwad\Documents\GERMI\Paper Publishing\MTLAB Programs\Application_EXE_Development\ForecastingApp\ARIMAForecasting_App\ARIMA_Forecasting_App\for_testing\ARIMA_Forecasting_App.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Matlab\Matlab2015</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

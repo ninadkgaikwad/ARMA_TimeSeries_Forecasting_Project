@@ -1,0 +1,43 @@
+%% Appendix3
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{arima2}
+\caption{ARIMA-Data Acquisition GUI}
+\label{figApp3_1} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{arima3}
+\caption{ARIMA-Model Identification GUI}
+\label{figApp3_2} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{arima4}
+\caption{ARIMA-Model Creation GUI}
+\label{figApp3_3} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.75]{arima5}
+\caption{ARIMA-Model Simulation GUI}
+\label{figApp3_4} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{arima6}
+\caption{ARIMA-Model Estimation GUI}
+\label{figApp3_5} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.65]{arima7}
+\caption{ARIMA=Model Forecasting GUI}
+\label{figApp3_6} %% to refer use, \ref{}
+\end{figure}

@@ -1,0 +1,160 @@
+\contentsline {chapter}{\numberline {1}Introduction}{18}
+\contentsline {section}{\numberline {1.1}Background and Motivation}{18}
+\contentsline {section}{\numberline {1.2}Literature Review}{20}
+\contentsline {section}{\numberline {1.3}Contribution to Scientific Community}{23}
+\contentsline {chapter}{\numberline {2}Data of Gujarat Solar PV Plants}{25}
+\contentsline {section}{\numberline {2.1}Intro}{25}
+\contentsline {section}{\numberline {2.2}Solar Generation in Gujarat}{25}
+\contentsline {section}{\numberline {2.3}District-Wise Solar Energy Generation in Gujarat}{30}
+\contentsline {section}{\numberline {2.4}Charanka Solar Park Analysis on the basis of PV Technology}{32}
+\contentsline {section}{\numberline {2.5}Tracking Mechanism Performance Assessment using BACKBONE Plant Data}{35}
+\contentsline {section}{\numberline {2.6}Generation and Weather Data Resources}{38}
+\contentsline {chapter}{\numberline {3}Basics of Solar Energy}{39}
+\contentsline {section}{\numberline {3.1}Solar Radiation and Solar Spectrum}{39}
+\contentsline {section}{\numberline {3.2}Photovoltaic Cell}{41}
+\contentsline {subsection}{\numberline {3.2.1}PV Cell Model with Shunt Resistance}{44}
+\contentsline {subsection}{\numberline {3.2.2}PV Cell Model with Series Resistance}{45}
+\contentsline {subsection}{\numberline {3.2.3}Complete PV Cell Model}{46}
+\contentsline {subsection}{\numberline {3.2.4}I-V Curve}{47}
+\contentsline {subsection}{\numberline {3.2.5}Effect of Insolation and Temperature on I-V Curve}{47}
+\contentsline {section}{\numberline {3.3}Cells, Modules and Arrays}{49}
+\contentsline {section}{\numberline {3.4}Effect of Shading on PV Modules}{51}
+\contentsline {subsection}{\numberline {3.4.1}Bypass Diode}{53}
+\contentsline {subsection}{\numberline {3.4.2}Blocking Diode}{54}
+\contentsline {section}{\numberline {3.5}Results of PV-IV Curve App}{55}
+\contentsline {section}{\numberline {3.6}Variables Affecting Solar PV Cell Output}{59}
+\contentsline {section}{\numberline {3.7}PV Cell Technologies}{60}
+\contentsline {subsection}{\numberline {3.7.1}Mono-Crystalline PV}{60}
+\contentsline {subsection}{\numberline {3.7.2}Poly-Crystalline PV}{60}
+\contentsline {subsection}{\numberline {3.7.3}Thin Film PV}{61}
+\contentsline {chapter}{\numberline {4}Solar Photovoltaic Energy Estimation}{62}
+\contentsline {section}{\numberline {4.1}Air Mass Ratio}{62}
+\contentsline {section}{\numberline {4.2}Earth's Orbit}{63}
+\contentsline {section}{\numberline {4.3}Solar Declination}{63}
+\contentsline {section}{\numberline {4.4}Sun's Position}{65}
+\contentsline {section}{\numberline {4.5}Relationship Between Solar Time and Civil Time}{67}
+\contentsline {subsection}{\numberline {4.5.1}Sunrise and Sunset Times}{68}
+\contentsline {section}{\numberline {4.6}Types of Radiation}{69}
+\contentsline {subsection}{\numberline {4.6.1}Beam Radiation}{70}
+\contentsline {subsection}{\numberline {4.6.2}Diffuse Radiation}{71}
+\contentsline {subsection}{\numberline {4.6.3}Reflected Radiation}{72}
+\contentsline {subsection}{\numberline {4.6.4}Total Solar Radiation}{73}
+\contentsline {section}{\numberline {4.7}Radiation Equations}{73}
+\contentsline {subsection}{\numberline {4.7.1}Fixed Tilt Equations}{73}
+\contentsline {subsection}{\numberline {4.7.2}Seasonal Tilt Equations}{73}
+\contentsline {subsection}{\numberline {4.7.3}Single-Axis Tracker Equations}{74}
+\contentsline {subsection}{\numberline {4.7.4}Dual Axis Tracker Equations}{74}
+\contentsline {section}{\numberline {4.8}Power Flow through Solar PV Grid Connected System}{75}
+\contentsline {subsection}{\numberline {4.8.1}Shading, Soiling and Incidence Angle Loss}{76}
+\contentsline {subsection}{\numberline {4.8.2}Effect of Temperature and Irradiance on PV Module Output}{77}
+\contentsline {subsection}{\numberline {4.8.3}Array Mismatch and Ohmic Loss}{77}
+\contentsline {subsection}{\numberline {4.8.4}Inverter and Transformer Loss}{78}
+\contentsline {section}{\numberline {4.9}MATLAB Model Algorithm}{79}
+\contentsline {section}{\numberline {4.10}Results of Solar Energy Estimation App}{80}
+\contentsline {chapter}{\numberline {5}Wind Turbine Energy Estimation}{91}
+\contentsline {section}{\numberline {5.1}Kinetic Energy of Air:}{91}
+\contentsline {section}{\numberline {5.2}Power in Wind:}{91}
+\contentsline {section}{\numberline {5.3}Power Extracted from Wind:}{92}
+\contentsline {section}{\numberline {5.4}Effect of Rotor-Swept Area on Wind Power}{94}
+\contentsline {section}{\numberline {5.5}Effect of Air Density on Wind Power}{94}
+\contentsline {subsection}{\numberline {5.5.1}Correction for Pressure:}{95}
+\contentsline {subsection}{\numberline {5.5.2}Correction for Temperature}{95}
+\contentsline {section}{\numberline {5.6}Effect of Hub-Height on Wind Power:}{95}
+\contentsline {section}{\numberline {5.7}Wake Effect Models:}{96}
+\contentsline {subsection}{\numberline {5.7.1}Jensen's Model:}{97}
+\contentsline {subsection}{\numberline {5.7.2}Frandsen's Model:}{98}
+\contentsline {section}{\numberline {5.8}Concept of TSR:}{99}
+\contentsline {subsection}{\numberline {5.8.1}Power Coefficient Analysis:}{99}
+\contentsline {section}{\numberline {5.9}Weibull Wind Speed Distribution:}{100}
+\contentsline {section}{\numberline {5.10}Power Flow through Wind Turbine Grid Connected System}{102}
+\contentsline {subsection}{\numberline {5.10.1}Wind Speed Correction}{103}
+\contentsline {subsection}{\numberline {5.10.2}Power Curve Correction}{103}
+\contentsline {subsection}{\numberline {5.10.3}Ohmic and Transformer Losses}{103}
+\contentsline {section}{\numberline {5.11}MATLAB Model Algorithm}{104}
+\contentsline {section}{\numberline {5.12}Results}{105}
+\contentsline {subsection}{\numberline {5.12.1}Wind Turbine Power Plant Site Potential Estimation using Weibull Distribution App}{105}
+\contentsline {subsection}{\numberline {5.12.2}Cp Curve Generator App}{106}
+\contentsline {subsection}{\numberline {5.12.3}Hypothetical Wind Turbine Plant Information}{107}
+\contentsline {subsection}{\numberline {5.12.4}Wind Turbine Power Curve GUI}{109}
+\contentsline {subsection}{\numberline {5.12.5}Wind Energy Estimation App Output}{110}
+\contentsline {chapter}{\numberline {6}Forecasting Techniques in Brief}{111}
+\contentsline {section}{\numberline {6.1}Time Horizons for Solar Forecasting}{111}
+\contentsline {section}{\numberline {6.2}Solar Forecasting Models Classification}{111}
+\contentsline {subsubsection}{Forecasting Using ARIMA Models}{113}
+\contentsline {subsubsection}{Forecasting Using ANN }{114}
+\contentsline {subsubsection}{Forecasting Using WRF }{115}
+\contentsline {chapter}{\numberline {7}Generation Forecasting using ARIMA}{116}
+\contentsline {section}{\numberline {7.1}Introduction to Time Series Analysis}{116}
+\contentsline {section}{\numberline {7.2}Time Series Models}{116}
+\contentsline {subsection}{\numberline {7.2.1}AR Model}{116}
+\contentsline {subsection}{\numberline {7.2.2}MA Model}{117}
+\contentsline {subsection}{\numberline {7.2.3}ARMA Model}{118}
+\contentsline {subsection}{\numberline {7.2.4}ARIMA Model}{119}
+\contentsline {section}{\numberline {7.3}Model Identification}{120}
+\contentsline {subsection}{\numberline {7.3.1}Concept of Stationarity}{120}
+\contentsline {subsection}{\numberline {7.3.2}ACF and PACF}{121}
+\contentsline {section}{\numberline {7.4}Model Estimation and Fitness}{122}
+\contentsline {section}{\numberline {7.5}Process Flow for Forecasting using ARIMA Model}{123}
+\contentsline {section}{\numberline {7.6}Results}{124}
+\contentsline {subsection}{\numberline {7.6.1}GSEC 1MW SPVP - Plant Information}{124}
+\contentsline {subsection}{\numberline {7.6.2}ARIMA Results}{125}
+\contentsline {subsection}{\numberline {7.6.3}Conclusion from Graphs}{127}
+\contentsline {chapter}{\numberline {8}Generation Forecasting using ANN}{128}
+\contentsline {section}{\numberline {8.1}Introduction to Artificial Neural Networks}{128}
+\contentsline {section}{\numberline {8.2}Artificial Neuron}{129}
+\contentsline {section}{\numberline {8.3}ANN Architectures}{130}
+\contentsline {section}{\numberline {8.4}Training Methods}{134}
+\contentsline {section}{\numberline {8.5}ANN Applications}{134}
+\contentsline {section}{\numberline {8.6}Process Flow for Forecasting using ANN}{135}
+\contentsline {section}{\numberline {8.7}Results}{136}
+\contentsline {subsection}{\numberline {8.7.1}Input Type - Mode1}{136}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [5]}{136}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10]}{138}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [15]}{139}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10]}{141}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10-10]}{142}
+\contentsline {subsection}{\numberline {8.7.2}Input Type - Mode2}{144}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [5]}{144}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10]}{146}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [15]}{147}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10]}{149}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10-10]}{150}
+\contentsline {subsection}{\numberline {8.7.3}Input Type - Mode3}{152}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [5]}{152}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10]}{154}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [15]}{155}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10]}{157}
+\contentsline {subsubsection}{ANN Architecture - Hidden Nodes [10-10-10]}{158}
+\contentsline {subsubsection}{Conclusion from Graphs}{160}
+\contentsline {chapter}{\numberline {9}Generation Forecasting using WRF}{161}
+\contentsline {section}{\numberline {9.1}Introduction to NWP}{161}
+\contentsline {section}{\numberline {9.2}The WRF NWP Model}{162}
+\contentsline {section}{\numberline {9.3}WRF Software Components}{162}
+\contentsline {section}{\numberline {9.4}Real Data Case Short-Term Weather Forecasting using WPS and WRF-ARW Solver}{164}
+\contentsline {subsection}{\numberline {9.4.1}WPS Program Components}{165}
+\contentsline {subsection}{\numberline {9.4.2}WRF Program Components}{165}
+\contentsline {section}{\numberline {9.5}Computing Platform to Run WRF}{166}
+\contentsline {subsection}{\numberline {9.5.1}Raspberry-Pi2 Micro-Computer}{166}
+\contentsline {subsection}{\numberline {9.5.2}Setting up Raspberry Pi Cluster for WRF}{167}
+\contentsline {section}{\numberline {9.6}Results}{171}
+\contentsline {subsection}{\numberline {9.6.1}4-Node Raspberry-Pi2 Cluster for Running WRF}{171}
+\contentsline {subsection}{\numberline {9.6.2}WRF Namelist Files}{171}
+\contentsline {subsection}{\numberline {9.6.3}WRF-NETCDF Visualization and Extraction App}{176}
+\contentsline {subsection}{\numberline {9.6.4}Forecasting Results}{177}
+\contentsline {subsubsection}{5^{th} \textbf {June, 2016:}}{178}
+\contentsline {subsubsection}{10^{th} \textbf {June, 2016:}}{179}
+\contentsline {subsubsection}{15^{th} \textbf {June, 2016:}}{180}
+\contentsline {subsubsection}{20^{th} \textbf {June, 2016:}}{182}
+\contentsline {subsubsection}{25^{th} \textbf {June, 2016:}}{183}
+\contentsline {subsubsection}{Conclusion from Graphs}{184}
+\contentsline {chapter}{\numberline {10}Conclusion and Future Work}{185}
+\contentsline {section}{\numberline {10.1}Conclusion}{185}
+\contentsline {section}{\numberline {10.2}Future Work}{187}
+\contentsline {chapter}{\numberline {11}References}{188}
+\contentsline {chapter}{\numberline {A}Application Start GUIs }{195}
+\contentsline {chapter}{\numberline {B}Solar Energy Estimation App GUIs}{198}
+\contentsline {chapter}{\numberline {C}Wind Energy Estimation App GUIs }{205}
+\contentsline {chapter}{\numberline {D}ARIMA Forecasting App GUIs }{210}
+\contentsline {chapter}{\numberline {E}ANN Forecasting App GUIs }{214}
+\contentsline {chapter}{\numberline {F}WRF NETCDF Visualization and Extraction App GUI }{216}
+\contentsline {chapter}{\numberline {G}Data Pre-Processing System App GUIs }{217}

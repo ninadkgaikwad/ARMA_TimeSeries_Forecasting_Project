@@ -1,0 +1,15 @@
+%% Appendix4
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=.8]{ForecastANNApp}
+\caption{ANN Forecasting App GUI}
+\label{figApp4_1} %% to refer use, \ref{}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{AnnPerfPlot}
+\caption{ANN-Performance Plots GUI}
+\label{figApp4_2} %% to refer use, \ref{}
+\end{figure}
